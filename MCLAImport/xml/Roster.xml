@@ -1,0 +1,597 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><roster>
+  <generated>February 11, 2011 - 06:56:14 PM</generated>
+  <player id="24665">
+    <first>Jonathan</first>
+    <middle>K</middle>
+    <last>Basnett</last>
+    <hometown>Kennesaw</hometown>
+    <homestate>GA</homestate>
+    <highschool>Kennesaw Mountain</highschool>
+    <major></major>
+    <season id="2011">
+      <team>Kennesaw State University</team>
+      <jersey>2</jersey>
+      <position>Midfielder</position>
+      <height>67</height>
+      <weight>155</weight>
+      <class>Freshman</class>
+      <eligibility>Freshman</eligibility>
+    </season>
+  </player>
+  <player id="14187">
+    <first>Andrew</first>
+    <middle></middle>
+    <last>Congleton</last>
+    <hometown>Marietta</hometown>
+    <homestate>GA</homestate>
+    <highschool>McEachern</highschool>
+    <major></major>
+    <season id="2011">
+      <team>Kennesaw State University</team>
+      <jersey>13</jersey>
+      <position>Midfielder</position>
+      <height>70</height>
+      <weight>155</weight>
+      <class>Junior</class>
+      <eligibility>Junior</eligibility>
+    </season>
+  </player>
+  <player id="24668">
+    <first>William</first>
+    <middle></middle>
+    <last>DeKeyser</last>
+    <hometown>Marietta</hometown>
+    <homestate>GA</homestate>
+    <highschool>Pope</highschool>
+    <major></major>
+    <season id="2011">
+      <team>Kennesaw State University</team>
+      <jersey>12</jersey>
+      <position>Midfielder</position>
+      <height>73</height>
+      <weight>195</weight>
+      <class>Sophomore</class>
+      <eligibility>Freshman</eligibility>
+    </season>
+  </player>
+  <player id="24718">
+    <first>Jack</first>
+    <middle></middle>
+    <last>East</last>
+    <hometown>Marietta</hometown>
+    <homestate>GA</homestate>
+    <highschool>Whitefield</highschool>
+    <major></major>
+    <season id="2011">
+      <team>Kennesaw State University</team>
+      <jersey>18</jersey>
+      <position>Midfielder</position>
+      <height>68</height>
+      <weight>158</weight>
+      <class>Sophomore</class>
+      <eligibility>Freshman</eligibility>
+    </season>
+  </player>
+  <player id="11197">
+    <first>James</first>
+    <middle></middle>
+    <last>Faucette</last>
+    <hometown>Powder Springs</hometown>
+    <homestate>GA</homestate>
+    <highschool>Kennesaw Mountain</highschool>
+    <major></major>
+    <season id="2011">
+      <team>Kennesaw State University</team>
+      <jersey>28</jersey>
+      <position>Defenseman</position>
+      <height>74</height>
+      <weight>210</weight>
+      <class>Senior</class>
+      <eligibility>Senior</eligibility>
+    </season>
+  </player>
+  <player id="19219">
+    <first>Andrew</first>
+    <middle></middle>
+    <last>Flood</last>
+    <hometown>Marietta</hometown>
+    <homestate>GA</homestate>
+    <highschool>Pope</highschool>
+    <major></major>
+    <season id="2011">
+      <team>Kennesaw State University</team>
+      <jersey>25</jersey>
+      <position>Goalkeeper</position>
+      <height>72</height>
+      <weight>170</weight>
+      <class>Junior</class>
+      <eligibility>Junior</eligibility>
+    </season>
+  </player>
+  <player id="18467">
+    <first>Kyle</first>
+    <middle></middle>
+    <last>Foster</last>
+    <hometown>Johns Creek</hometown>
+    <homestate>GA</homestate>
+    <highschool>Northview</highschool>
+    <major></major>
+    <season id="2011">
+      <team>Kennesaw State University</team>
+      <jersey>23</jersey>
+      <position>Attackman</position>
+      <height>78</height>
+      <weight>160</weight>
+      <class>Sophomore</class>
+      <eligibility>Junior</eligibility>
+    </season>
+  </player>
+  <player id="24670">
+    <first>Taylor</first>
+    <middle></middle>
+    <last>Gipson</last>
+    <hometown>Alpharetta</hometown>
+    <homestate>GA</homestate>
+    <highschool>Northview</highschool>
+    <major></major>
+    <season id="2011">
+      <team>Kennesaw State University</team>
+      <jersey>8</jersey>
+      <position>Midfielder</position>
+      <height>69</height>
+      <weight>170</weight>
+      <class>Freshman</class>
+      <eligibility>Freshman</eligibility>
+    </season>
+  </player>
+  <player id="24669">
+    <first>Richard </first>
+    <middle></middle>
+    <last>Greenough</last>
+    <hometown>Marietta</hometown>
+    <homestate>GA</homestate>
+    <highschool>Sprayberry</highschool>
+    <major></major>
+    <season id="2011">
+      <team>Kennesaw State University</team>
+      <jersey>12</jersey>
+      <position>Midfielder</position>
+      <height>72</height>
+      <weight>170</weight>
+      <class>Freshman</class>
+      <eligibility>Freshman</eligibility>
+    </season>
+  </player>
+  <player id="21416">
+    <first>Justin</first>
+    <middle></middle>
+    <last>Griffith</last>
+    <hometown>kennesaw</hometown>
+    <homestate>GA</homestate>
+    <highschool>Pope</highschool>
+    <major></major>
+    <season id="2011">
+      <team>Kennesaw State University</team>
+      <jersey>11</jersey>
+      <position>Defenseman</position>
+      <height>75</height>
+      <weight>175</weight>
+      <class>Sophomore</class>
+      <eligibility>Sophomore</eligibility>
+    </season>
+  </player>
+  <player id="24660">
+    <first>Michael</first>
+    <middle></middle>
+    <last>Grizanti</last>
+    <hometown>Syracuse</hometown>
+    <homestate>NY</homestate>
+    <highschool>Liverpool</highschool>
+    <major></major>
+    <season id="2011">
+      <team>Kennesaw State University</team>
+      <jersey>27</jersey>
+      <position>Goalkeeper</position>
+      <height>67</height>
+      <weight>175</weight>
+      <class>Sophomore</class>
+      <eligibility>Sophomore</eligibility>
+    </season>
+  </player>
+  <player id="21422">
+    <first>Kyle</first>
+    <middle></middle>
+    <last>Hansen</last>
+    <hometown>Kennesaw</hometown>
+    <homestate>GA</homestate>
+    <highschool>Roswell/McCallie</highschool>
+    <major></major>
+    <season id="2011">
+      <team>Kennesaw State University</team>
+      <jersey>22</jersey>
+      <position>Goalkeeper</position>
+      <height>73</height>
+      <weight>180</weight>
+      <class>Senior</class>
+      <eligibility>Senior</eligibility>
+    </season>
+  </player>
+  <player id="21418">
+    <first>Spencer</first>
+    <middle></middle>
+    <last>Hiett</last>
+    <hometown>Kennesaw</hometown>
+    <homestate>GA</homestate>
+    <highschool>Lassiter</highschool>
+    <major></major>
+    <season id="2011">
+      <team>Kennesaw State University</team>
+      <jersey>16</jersey>
+      <position>Defenseman</position>
+      <height>72</height>
+      <weight>190</weight>
+      <class>Sophomore</class>
+      <eligibility>Sophomore</eligibility>
+    </season>
+  </player>
+  <player id="24839">
+    <first>Justin</first>
+    <middle></middle>
+    <last>Isbrecht</last>
+    <hometown>Kennesaw</hometown>
+    <homestate>GA</homestate>
+    <highschool>Kennesaw Mountain</highschool>
+    <major></major>
+    <season id="2011">
+      <team>Kennesaw State University</team>
+      <jersey>39</jersey>
+      <position>Defensive Midfield</position>
+      <height>69</height>
+      <weight>155</weight>
+      <class>Sophomore</class>
+      <eligibility>Freshman</eligibility>
+    </season>
+  </player>
+  <player id="24671">
+    <first>Justin</first>
+    <middle></middle>
+    <last>Ischbrecht</last>
+    <hometown>Kennesaw</hometown>
+    <homestate>GA</homestate>
+    <highschool>Kennesaw Mountain</highschool>
+    <major></major>
+    <season id="2011">
+      <team>Kennesaw State University</team>
+      <jersey>36</jersey>
+      <position>Defensive Midfield</position>
+      <height>69</height>
+      <weight>155</weight>
+      <class>Freshman</class>
+      <eligibility>Freshman</eligibility>
+    </season>
+  </player>
+  <player id="25327">
+    <first>Bradley</first>
+    <middle></middle>
+    <last>Jones</last>
+    <hometown>Syracuse</hometown>
+    <homestate>NY</homestate>
+    <highschool>Lafeyette Central</highschool>
+    <major></major>
+    <season id="2011">
+      <team>Kennesaw State University</team>
+      <jersey>24</jersey>
+      <position>Attackman</position>
+      <height>72</height>
+      <weight>170</weight>
+      <class>Sophomore</class>
+      <eligibility>Freshman</eligibility>
+    </season>
+  </player>
+  <player id="14551">
+    <first>Rory</first>
+    <middle></middle>
+    <last>Keown</last>
+    <hometown>Newnan</hometown>
+    <homestate>GA</homestate>
+    <highschool>Newnan</highschool>
+    <major></major>
+    <season id="2011">
+      <team>Kennesaw State University</team>
+      <jersey>10</jersey>
+      <position>Defenseman</position>
+      <height>72</height>
+      <weight>190</weight>
+      <class>Junior</class>
+      <eligibility>Junior</eligibility>
+    </season>
+  </player>
+  <player id="21431">
+    <first>Keith</first>
+    <middle></middle>
+    <last>Lamb</last>
+    <hometown>Kennesaw</hometown>
+    <homestate>GA</homestate>
+    <highschool>Tucker</highschool>
+    <major></major>
+    <season id="2011">
+      <team>Kennesaw State University</team>
+      <jersey>31</jersey>
+      <position>Midfielder</position>
+      <height>73</height>
+      <weight>190</weight>
+      <class>Sophomore</class>
+      <eligibility>Sophomore</eligibility>
+    </season>
+  </player>
+  <player id="24667">
+    <first>Robert</first>
+    <middle></middle>
+    <last>Manton</last>
+    <hometown>Kennesaw</hometown>
+    <homestate>GA</homestate>
+    <highschool>Kennesaw Mountain</highschool>
+    <major></major>
+    <season id="2011">
+      <team>Kennesaw State University</team>
+      <jersey>5</jersey>
+      <position>Defensive Midfield</position>
+      <height>70</height>
+      <weight>170</weight>
+      <class>Freshman</class>
+      <eligibility>Freshman</eligibility>
+    </season>
+  </player>
+  <player id="24661">
+    <first>Bryce</first>
+    <middle></middle>
+    <last>Mazor</last>
+    <hometown>Kennesaw</hometown>
+    <homestate>GA</homestate>
+    <highschool>Kell</highschool>
+    <major></major>
+    <season id="2011">
+      <team>Kennesaw State University</team>
+      <jersey>7</jersey>
+      <position>Attackman</position>
+      <height>68</height>
+      <weight>165</weight>
+      <class>Freshman</class>
+      <eligibility>Freshman</eligibility>
+    </season>
+  </player>
+  <player id="14548">
+    <first>Justin</first>
+    <middle></middle>
+    <last>McKay</last>
+    <hometown>Cumming</hometown>
+    <homestate>GA</homestate>
+    <highschool>South Forsyth</highschool>
+    <major></major>
+    <season id="2011">
+      <team>Kennesaw State University</team>
+      <jersey>19</jersey>
+      <position>Midfielder</position>
+      <height>71</height>
+      <weight>170</weight>
+      <class>Senior</class>
+      <eligibility>Senior</eligibility>
+    </season>
+  </player>
+  <player id="24673">
+    <first>Walter</first>
+    <middle></middle>
+    <last>Mertins</last>
+    <hometown>Lawrenceville</hometown>
+    <homestate>GA</homestate>
+    <highschool>Collins Hill</highschool>
+    <major></major>
+    <season id="2011">
+      <team>Kennesaw State University</team>
+      <jersey>29</jersey>
+      <position>Defensive Midfield</position>
+      <height>70</height>
+      <weight>185</weight>
+      <class>Sophomore</class>
+      <eligibility>Freshman</eligibility>
+    </season>
+  </player>
+  <player id="21414">
+    <first>Tom</first>
+    <middle></middle>
+    <last>Mudrak</last>
+    <hometown>Kennesaw</hometown>
+    <homestate>GA</homestate>
+    <highschool>Lakeside-Evans</highschool>
+    <major></major>
+    <season id="2011">
+      <team>Kennesaw State University</team>
+      <jersey>40</jersey>
+      <position>Defenseman</position>
+      <height>74</height>
+      <weight>210</weight>
+      <class>Junior</class>
+      <eligibility>Junior</eligibility>
+    </season>
+  </player>
+  <player id="21415">
+    <first>Casey</first>
+    <middle></middle>
+    <last>Newton</last>
+    <hometown>Kennesaw</hometown>
+    <homestate>GA</homestate>
+    <highschool>Lassiter</highschool>
+    <major></major>
+    <season id="2011">
+      <team>Kennesaw State University</team>
+      <jersey>9</jersey>
+      <position>Midfielder</position>
+      <height>73</height>
+      <weight>200</weight>
+      <class>Sophomore</class>
+      <eligibility>Sophomore</eligibility>
+    </season>
+  </player>
+  <player id="18852">
+    <first>Noah</first>
+    <middle></middle>
+    <last>Rosenblum</last>
+    <hometown>Tallahassee</hometown>
+    <homestate>FL</homestate>
+    <highschool>Maclay</highschool>
+    <major></major>
+    <season id="2011">
+      <team>Kennesaw State University</team>
+      <jersey>1</jersey>
+      <position>Goalkeeper</position>
+      <height>71</height>
+      <weight>175</weight>
+      <class>Senior</class>
+      <eligibility>Junior</eligibility>
+    </season>
+  </player>
+  <player id="18857">
+    <first>Tyler</first>
+    <middle></middle>
+    <last>Schrampfer</last>
+    <hometown>Kennesaw</hometown>
+    <homestate>GA</homestate>
+    <highschool>Kennesaw Mountain</highschool>
+    <major></major>
+    <season id="2011">
+      <team>Kennesaw State University</team>
+      <jersey>20</jersey>
+      <position>Defenseman</position>
+      <height>72</height>
+      <weight>200</weight>
+      <class>Senior</class>
+      <eligibility>Junior</eligibility>
+    </season>
+  </player>
+  <player id="14556">
+    <first>Scott</first>
+    <middle></middle>
+    <last>Schulze</last>
+    <hometown>Duluth</hometown>
+    <homestate>GA</homestate>
+    <highschool>Northview</highschool>
+    <major></major>
+    <season id="2011">
+      <team>Kennesaw State University</team>
+      <jersey>21</jersey>
+      <position>Attackman</position>
+      <height>68</height>
+      <weight>160</weight>
+      <class>Senior</class>
+      <eligibility>Senior</eligibility>
+    </season>
+  </player>
+  <player id="14552">
+    <first>Jonny</first>
+    <middle></middle>
+    <last>Slutzky</last>
+    <hometown>Marietta</hometown>
+    <homestate>GA</homestate>
+    <highschool>Wheeler</highschool>
+    <major></major>
+    <season id="2011">
+      <team>Kennesaw State University</team>
+      <jersey>15</jersey>
+      <position>Attackman</position>
+      <height>71</height>
+      <weight>165</weight>
+      <class>Senior</class>
+      <eligibility>Senior</eligibility>
+    </season>
+  </player>
+  <player id="21204">
+    <first>Kyle</first>
+    <middle></middle>
+    <last>Teasdale</last>
+    <hometown>Winnipeg</hometown>
+    <homestate>MB</homestate>
+    <highschool>Woodstock</highschool>
+    <major></major>
+    <season id="2011">
+      <team>Kennesaw State University</team>
+      <jersey>3</jersey>
+      <position>Long Stick Midfielder</position>
+      <height>73</height>
+      <weight>184</weight>
+      <class>Sophomore</class>
+      <eligibility>Sophomore</eligibility>
+    </season>
+  </player>
+  <player id="21429">
+    <first>Anthony</first>
+    <middle></middle>
+    <last>Tsirigos</last>
+    <hometown>Kennesaw</hometown>
+    <homestate>GA</homestate>
+    <highschool>South Forsyth</highschool>
+    <major></major>
+    <season id="2011">
+      <team>Kennesaw State University</team>
+      <jersey>30</jersey>
+      <position>Goalkeeper</position>
+      <height>74</height>
+      <weight>249</weight>
+      <class>Sophomore</class>
+      <eligibility>Sophomore</eligibility>
+    </season>
+  </player>
+  <player id="21419">
+    <first>Eric</first>
+    <middle></middle>
+    <last>Wells</last>
+    <hometown>Kennesaw</hometown>
+    <homestate>GA</homestate>
+    <highschool>Milton</highschool>
+    <major></major>
+    <season id="2011">
+      <team>Kennesaw State University</team>
+      <jersey>17</jersey>
+      <position>Attackman</position>
+      <height>71</height>
+      <weight>155</weight>
+      <class>Sophomore</class>
+      <eligibility>Sophomore</eligibility>
+    </season>
+  </player>
+  <player id="14559">
+    <first>Isom</first>
+    <middle></middle>
+    <last>White</last>
+    <hometown>Powder Springs</hometown>
+    <homestate>GA</homestate>
+    <highschool>McEachern</highschool>
+    <major></major>
+    <season id="2011">
+      <team>Kennesaw State University</team>
+      <jersey>6</jersey>
+      <position>Midfielder</position>
+      <height>71</height>
+      <weight>145</weight>
+      <class>Senior</class>
+      <eligibility>Senior</eligibility>
+    </season>
+  </player>
+  <player id="21417">
+    <first>Anthony</first>
+    <middle></middle>
+    <last>Winters</last>
+    <hometown>Kennesaw</hometown>
+    <homestate>GA</homestate>
+    <highschool>North Cobb</highschool>
+    <major></major>
+    <season id="2011">
+      <team>Kennesaw State University</team>
+      <jersey>14</jersey>
+      <position>Midfielder</position>
+      <height>70</height>
+      <weight>150</weight>
+      <class>Sophomore</class>
+      <eligibility>Sophomore</eligibility>
+    </season>
+  </player>
+</roster>

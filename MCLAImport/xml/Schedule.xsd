@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="schedule">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="generated" type="xs:string" />
+        <xs:element maxOccurs="unbounded" name="game">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="game_season_id" type="xs:unsignedShort" />
+              <xs:element name="game_date" type="xs:string" />
+              <xs:element name="game_time" type="xs:string" />
+              <xs:element name="game_type" type="xs:string" />
+              <xs:element name="game_status" type="xs:unsignedByte" />
+              <xs:element name="venue" type="xs:string" />
+              <xs:element name="away_team" type="xs:string" />
+              <xs:element name="away_team_slug" type="xs:string" />
+              <xs:element name="home_team" type="xs:string" />
+              <xs:element name="home_team_slug" type="xs:string" />
+              <xs:element minOccurs="0" name="url" type="xs:string" />
+              <xs:element minOccurs="0" name="away_team_score" type="xs:unsignedByte" />
+              <xs:element minOccurs="0" name="home_team_score" type="xs:unsignedByte" />
+              <xs:element minOccurs="0" name="away_players">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element maxOccurs="unbounded" name="player">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="assists" type="xs:unsignedByte" />
+                          <xs:element name="goals" type="xs:unsignedByte" />
+                          <xs:element name="saves" type="xs:unsignedByte" />
+                          <xs:element name="ga" type="xs:unsignedByte" />
+                        </xs:sequence>
+                        <xs:attribute name="id" type="xs:unsignedShort" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element minOccurs="0" name="home_players">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element maxOccurs="unbounded" name="player">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="assists" type="xs:unsignedByte" />
+                          <xs:element name="goals" type="xs:unsignedByte" />
+                          <xs:element name="saves" type="xs:unsignedByte" />
+                          <xs:element name="ga" type="xs:unsignedByte" />
+                        </xs:sequence>
+                        <xs:attribute name="id" type="xs:unsignedShort" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="id" type="xs:unsignedShort" use="required" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

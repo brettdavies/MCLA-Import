@@ -1,0 +1,869 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><schedule>
+  <generated>February 11, 2011 - 06:57:38 PM</generated>
+  <game id="9315">
+    <game_season_id>2011</game_season_id>
+    <game_date>Sat Jan 29</game_date>
+    <game_time>12:00 PM</game_time>
+    <game_type>none</game_type>
+    <game_status>0</game_status>
+    <venue>Kennesaw State University</venue>
+    <away_team>Georgia Southern University</away_team>
+    <away_team_slug>georgia_southern</away_team_slug>
+    <home_team>Kennesaw State University</home_team>
+    <home_team_slug>kennesaw_state</home_team_slug>
+    <url>http://mcla.us/scores/games/9315/</url>
+    <away_team_score>5</away_team_score>
+    <home_team_score>19</home_team_score>
+    <away_players>
+      <player id="24754">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="24764">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="24735">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="24771">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="24769">
+        <assists>0</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="24749">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="24756">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="24765">
+        <assists>1</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="24751">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="24768">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>3</saves>
+        <ga>5</ga>
+      </player>
+      <player id="18092">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="21129">
+        <assists>1</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="24758">
+        <assists>0</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="24766">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="21133">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="24761">
+        <assists>0</assists>
+        <goals>3</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="24762">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="24770">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="24747">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="24733">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="16466">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="24737">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="24772">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="21147">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>9</saves>
+        <ga>14</ga>
+      </player>
+      <player id="24750">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="24757">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="24755">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="24732">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="24759">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="21138">
+        <assists>1</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="24731">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="24767">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="24763">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="24734">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+    </away_players>
+    <home_players>
+      <player id="24665">
+        <assists>1</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="14187">
+        <assists>2</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="24668">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="24718">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="11197">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="18467">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="24670">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="24669">
+        <assists>1</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="21416">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="21422">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>3</saves>
+        <ga>2</ga>
+      </player>
+      <player id="21418">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="25327">
+        <assists>2</assists>
+        <goals>5</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="14551">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="21431">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="24667">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="14548">
+        <assists>1</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="24673">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="21414">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="21415">
+        <assists>0</assists>
+        <goals>2</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="18852">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>6</saves>
+        <ga>3</ga>
+      </player>
+      <player id="18857">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="14556">
+        <assists>2</assists>
+        <goals>2</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="14552">
+        <assists>1</assists>
+        <goals>3</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="21204">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="21419">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="14559">
+        <assists>1</assists>
+        <goals>5</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="21417">
+        <assists>1</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+    </home_players>
+  </game>
+  <game id="9371">
+    <game_season_id>2011</game_season_id>
+    <game_date>Sat Feb 5</game_date>
+    <game_time>12:00 PM</game_time>
+    <game_type>out</game_type>
+    <game_status>0</game_status>
+    <venue>Kennesaw State University</venue>
+    <away_team>St. Marys College</away_team>
+    <away_team_slug>st_marys</away_team_slug>
+    <home_team>Kennesaw State University</home_team>
+    <home_team_slug>kennesaw_state</home_team_slug>
+    <url>http://mcla.us/scores/games/9371/</url>
+    <away_team_score>8</away_team_score>
+    <home_team_score>10</home_team_score>
+    <away_players>
+      <player id="15850">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="15852">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="24057">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="15855">
+        <assists>2</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="24049">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="24053">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="24052">
+        <assists>1</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="16234">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="20295">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="20433">
+        <assists>1</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="20305">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="24058">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="24056">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="15859">
+        <assists>0</assists>
+        <goals>2</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="20432">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="17380">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>17</saves>
+        <ga>10</ga>
+      </player>
+      <player id="15860">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="20431">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="20306">
+        <assists>0</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="24326">
+        <assists>0</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="21273">
+        <assists>0</assists>
+        <goals>3</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="23180">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="21274">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+    </away_players>
+    <home_players>
+      <player id="24665">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="14187">
+        <assists>2</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="24668">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="24718">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="11197">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="19219">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>6</saves>
+        <ga>3</ga>
+      </player>
+      <player id="18467">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="24670">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="24669">
+        <assists>0</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="21416">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="24660">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>9</saves>
+        <ga>5</ga>
+      </player>
+      <player id="21418">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="24839">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="25327">
+        <assists>1</assists>
+        <goals>2</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="21431">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="24667">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="24661">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="14548">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="21414">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="21415">
+        <assists>0</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="18857">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="14556">
+        <assists>2</assists>
+        <goals>5</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="14552">
+        <assists>1</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="21204">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="21419">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+      <player id="21417">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+    </home_players>
+  </game>
+  <game id="9376">
+    <game_season_id>2011</game_season_id>
+    <game_date>Sat Feb 12</game_date>
+    <game_time>1:00 PM</game_time>
+    <game_type>scrimmage</game_type>
+    <game_status>0</game_status>
+    <venue>Berry College</venue>
+    <away_team>Kennesaw State University</away_team>
+    <away_team_slug>kennesaw_state</away_team_slug>
+    <home_team>Berry College</home_team>
+    <home_team_slug>berry</home_team_slug>
+  </game>
+  <game id="9070">
+    <game_season_id>2011</game_season_id>
+    <game_date>Fri Feb 18</game_date>
+    <game_time>7:00 PM</game_time>
+    <game_type>divisional</game_type>
+    <game_status>0</game_status>
+    <venue>Kennesaw State University</venue>
+    <away_team>Georgia State University</away_team>
+    <away_team_slug>georgia_state</away_team_slug>
+    <home_team>Kennesaw State University</home_team>
+    <home_team_slug>kennesaw_state</home_team_slug>
+  </game>
+  <game id="9262">
+    <game_season_id>2011</game_season_id>
+    <game_date>Sat Feb 26</game_date>
+    <game_time>2:00 PM</game_time>
+    <game_type>divisional</game_type>
+    <game_status>0</game_status>
+    <venue>Tennessee Wesleyan</venue>
+    <away_team>Kennesaw State University</away_team>
+    <away_team_slug>kennesaw_state</away_team_slug>
+    <home_team>Tennessee Wesleyan College</home_team>
+    <home_team_slug>tennessee_wesleyan</home_team_slug>
+  </game>
+  <game id="8920">
+    <game_season_id>2011</game_season_id>
+    <game_date>Sun Feb 27</game_date>
+    <game_time>12:00 PM</game_time>
+    <game_type>none</game_type>
+    <game_status>0</game_status>
+    <venue>Kennesaw State University</venue>
+    <away_team>The Citadel</away_team>
+    <away_team_slug>citadel</away_team_slug>
+    <home_team>Kennesaw State University</home_team>
+    <home_team_slug>kennesaw_state</home_team_slug>
+  </game>
+  <game id="9362">
+    <game_season_id>2011</game_season_id>
+    <game_date>Sat Mar 5</game_date>
+    <game_time>7:00 PM</game_time>
+    <game_type>none</game_type>
+    <game_status>0</game_status>
+    <venue>Palm Beach Atlantic</venue>
+    <away_team>Kennesaw State University</away_team>
+    <away_team_slug>kennesaw_state</away_team_slug>
+    <home_team>Palm Beach Atlantic University</home_team>
+    <home_team_slug>palm_beach_atlantic</home_team_slug>
+  </game>
+  <game id="9363">
+    <game_season_id>2011</game_season_id>
+    <game_date>Sun Mar 6</game_date>
+    <game_time>1:00 PM</game_time>
+    <game_type>out</game_type>
+    <game_status>0</game_status>
+    <venue>Palm Beach Atlantic</venue>
+    <away_team>Kennesaw State University</away_team>
+    <away_team_slug>kennesaw_state</away_team_slug>
+    <home_team>U.S. Coast Guard Academy</home_team>
+    <home_team_slug>coast_gaurd</home_team_slug>
+  </game>
+  <game id="9150">
+    <game_season_id>2011</game_season_id>
+    <game_date>Mon Mar 7</game_date>
+    <game_time>6:00 PM</game_time>
+    <game_type>none</game_type>
+    <game_status>0</game_status>
+    <venue>University of North Florida</venue>
+    <away_team>Kennesaw State University</away_team>
+    <away_team_slug>kennesaw_state</away_team_slug>
+    <home_team>University of North Florida</home_team>
+    <home_team_slug>north_florida</home_team_slug>
+  </game>
+  <game id="9372">
+    <game_season_id>2011</game_season_id>
+    <game_date>Sun Mar 13</game_date>
+    <game_time>12:00 PM</game_time>
+    <game_type>out</game_type>
+    <game_status>0</game_status>
+    <venue>Kennesaw State University</venue>
+    <away_team>Stonehill College</away_team>
+    <away_team_slug>stonehill</away_team_slug>
+    <home_team>Kennesaw State University</home_team>
+    <home_team_slug>kennesaw_state</home_team_slug>
+  </game>
+  <game id="9166">
+    <game_season_id>2011</game_season_id>
+    <game_date>Sun Mar 20</game_date>
+    <game_time>12:00 PM</game_time>
+    <game_type>divisional</game_type>
+    <game_status>0</game_status>
+    <venue>Kennesaw State University</venue>
+    <away_team>Reinhardt University</away_team>
+    <away_team_slug>reinhardt</away_team_slug>
+    <home_team>Kennesaw State University</home_team>
+    <home_team_slug>kennesaw_state</home_team_slug>
+  </game>
+  <game id="9373">
+    <game_season_id>2011</game_season_id>
+    <game_date>Sun Mar 27</game_date>
+    <game_time>12:00 PM</game_time>
+    <game_type>scrimmage</game_type>
+    <game_status>0</game_status>
+    <venue>Kennesaw State University</venue>
+    <away_team>Valdosta State University</away_team>
+    <away_team_slug>valdosta</away_team_slug>
+    <home_team>Kennesaw State University</home_team>
+    <home_team_slug>kennesaw_state</home_team_slug>
+  </game>
+  <game id="9140">
+    <game_season_id>2011</game_season_id>
+    <game_date>Fri Apr 1</game_date>
+    <game_time>7:30 PM</game_time>
+    <game_type>divisional</game_type>
+    <game_status>0</game_status>
+    <venue>Emory University Woodrull PE Center</venue>
+    <away_team>Kennesaw State University</away_team>
+    <away_team_slug>kennesaw_state</away_team_slug>
+    <home_team>Emory University</home_team>
+    <home_team_slug>emory</home_team_slug>
+  </game>
+  <game id="9313">
+    <game_season_id>2011</game_season_id>
+    <game_date>Sat Apr 9</game_date>
+    <game_time>4:00 PM</game_time>
+    <game_type>none</game_type>
+    <game_status>0</game_status>
+    <venue>Elon Fields</venue>
+    <away_team>Kennesaw State University</away_team>
+    <away_team_slug>kennesaw_state</away_team_slug>
+    <home_team>Elon University</home_team>
+    <home_team_slug>elon</home_team_slug>
+  </game>
+  <game id="9323">
+    <game_season_id>2011</game_season_id>
+    <game_date>Sun Apr 10</game_date>
+    <game_time>2:00 PM</game_time>
+    <game_type>none</game_type>
+    <game_status>0</game_status>
+    <venue>UNC-Charlotte</venue>
+    <away_team>Kennesaw State University</away_team>
+    <away_team_slug>kennesaw_state</away_team_slug>
+    <home_team>University of North Carolina at Charlotte</home_team>
+    <home_team_slug>north_carolina_charlotte</home_team_slug>
+  </game>
+  <game id="9370">
+    <game_season_id>2011</game_season_id>
+    <game_date>Sat Apr 16</game_date>
+    <game_time>7:00 PM</game_time>
+    <game_type>none</game_type>
+    <game_status>0</game_status>
+    <venue>Kennesaw State University</venue>
+    <away_team>Savannah College of Art and Design</away_team>
+    <away_team_slug>scad</away_team_slug>
+    <home_team>Kennesaw State University</home_team>
+    <home_team_slug>kennesaw_state</home_team_slug>
+  </game>
+</schedule>
