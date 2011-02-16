@@ -266,7 +266,7 @@ namespace MCLAImport
 
         private string highschoolField;
 
-        private object majorField;
+        private string majorField;
 
         private rosterPlayerSeason seasonField;
 
@@ -353,7 +353,7 @@ namespace MCLAImport
         }
 
         [System.Xml.Serialization.XmlElementAttribute(Order = 6)]
-        public object major
+        public string major
         {
             get
             {
