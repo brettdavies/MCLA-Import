@@ -13,7 +13,7 @@
               <xs:element name="hometown" type="xs:string" />
               <xs:element name="homestate" type="xs:string" />
               <xs:element name="highschool" type="xs:string" />
-              <xs:element name="major" />
+              <xs:element name="major" type="xs:string"/>
               <xs:element name="season">
                 <xs:complexType>
                   <xs:sequence>
