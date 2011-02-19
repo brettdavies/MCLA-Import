@@ -8,13 +8,12 @@ using System.Collections.Generic;
 using KSULax.Entities;
 using KSULax.Models;
 using KSULax.Dal;
-using KSULax.Logic;
+using KSULax.Logic.Import;
 
 namespace MCLAImport
 {
     public partial class Service1
     {
-        private static PlayerBL _playerBL;
 
         public static void Main(string[] args)
         {
@@ -25,99 +24,99 @@ namespace MCLAImport
             //HttpWebRequest webRequest = (HttpWebRequest)WebRequest.Create(url);
             //HttpWebResponse httpResponse = (HttpWebResponse)webRequest.GetResponse();
 
+            MCLA mcla = new MCLA();
+
             XmlDocument responseXML = new XmlDocument();
             
             //responseXML.Load(httpResponse.GetResponseStream());
             responseXML.Load(@"C:\Users\Brett\Documents\Visual Studio 2010\Projects\MCLAImport\xml\Roster.xml");
-            //StringBuilder sb = new StringBuilder(responseXML.InnerXml);
-            roster players = roster.Deserialize(responseXML.InnerXml);
+            var players = roster.Deserialize(responseXML.InnerXml);
+            var pbeLst = GetPlayerBE(players.player);
 
-            List<PlayerBE> pbeLst = GetPlayerBE(players);
+            mcla.UpdatePlayers(pbeLst);
 
-            List<PlayerEntity> peLst = GetPlayerEntity(pbeLst);
 
-            using (var ent = new KSULaxEntities())
+            responseXML.Load(@"C:\Users\Brett\Documents\Visual Studio 2010\Projects\MCLAImport\xml\Schedule.xml");
+            var sch = schedule.Deserialize(responseXML.InnerXml);
+            var geLst = GetGameBE(sch.game);
+            var pgbeLst = GetPlayerGameBE(sch.game);
+
+            mcla.UpdateGames(geLst);
+            mcla.UpdatePlayerGame(pgbeLst);
+
+        }
+
+        private static List<PlayerGameBE> GetPlayerGameBE(List<scheduleGame> games)
+        {
+            var pgbeLst = new List<PlayerGameBE>();
+
+            foreach (scheduleGame game in games)
             {
-                _playerBL = new PlayerBL(ent);
-                PlayerBE pbe;
+                bool _isHome = game.home_team_slug.Equals("kennesaw_state");
 
-                foreach (PlayerEntity pe in peLst)
+                pgbeLst.AddRange(GetPlayerGameBE(_isHome ? game.home_players : game.away_players, game.id));
+            }
+
+            return pgbeLst;
+        }
+
+        private static List<PlayerGameBE> GetPlayerGameBE(List<PlayersPlayer> players, ushort gameID)
+        {
+            var pgbeLst = new List<PlayerGameBE>();
+
+            foreach (PlayersPlayer player in players)
+            {
+                pgbeLst.Add(new PlayerGameBE
                 {
-                    var pse = pe.PlayerSeason.GetEnumerator().Current;
-                    
-                    pbe = _playerBL.PlayerByID(pe.id, pse.season_id);
-                    
-                    if (null == pbe)
-                    {
-                        ent.AddToPlayerSet(pe);
-                        ent.AddToPlayerSeasonSet(pse);
-                    }
-                    else
-                    {
-                        pbe.FirstName = pe.first;
-                        pe.highschool;
-                        pe.homestate;
-                        pe.hometown;
-                        pe.last;
-                        pe.major;
-                        pe.middle;
-                    }
-                }
-
-                ent.SaveChanges();
+                    Assists = player.assists,
+                    GameID = gameID,
+                    Goals = player.goals,
+                    GoalsAgainst = player.ga,
+                    PlayerID = player.id,
+                    Saves = player.saves
+                });
             }
 
-            //responseXML.Load(@"C:\Users\Brett\Documents\Visual Studio 2010\Projects\MCLAImport\xml\Schedule.xml");
-            //schedule sch = schedule.Deserialize(responseXML.InnerXml);
-
+            return pgbeLst;
         }
 
-        private static List<PlayerEntity> GetPlayerEntity(List<PlayerBE> pbeLst)
+        private static List<GameBE> GetGameBE(List<scheduleGame> games)
         {
-            var peLst = new List<PlayerEntity>();
+            var gbeLst = new List<GameBE>();
 
-            foreach (PlayerBE pbe in pbeLst)
+            foreach (scheduleGame game in games)
             {
-                peLst.Add(GetPlayerEntity(pbe));
+                gbeLst.Add(GetGameBE(game));
             }
 
-            return peLst;
+            return gbeLst;
         }
 
-        private static PlayerEntity GetPlayerEntity(PlayerBE pbe)
+        private static GameBE GetGameBE(scheduleGame game)
         {
-            var pe = new PlayerEntity();
+            var ge = new GameBE
+            {
+                AwayTeamScore = game.away_team_score,
+                AwayTeamSlug = game.away_team_slug,
+                Date = game.game_date,
+                SeasonID = (short)game.game_season_id,
+                Status = game.game_status,
+                Time = game.game_time,
+                Type = game.game_type,
+                HomeTeamScore = game.home_team_score,
+                HomeTeamSlug = game.home_team_slug,
+                ID = (short)game.id,
+                Venue = game.venue
+            };
 
-            pe.first = pbe.FirstName;
-            pe.highschool = pbe.HighSchool;
-            pe.homestate = pbe.HomeState;
-            pe.hometown = pbe.Hometown;
-            pe.id = (short)pbe.PlayerID;
-            pe.last = pbe.LastName;
-            pe.major = pbe.Major;
-            pe.middle = pbe.MiddleName;
-
-            var pse = new PlayerSeasonEntity();
-
-            pse.@class = pbe.ClassYr;
-            pse.eligibility = pbe.EligibilityYr;
-            pse.height = (short)pbe.Height;
-            pse.jersey = (short)pbe.JerseyNum;
-            pse.player_id = (short)pbe.PlayerID;
-            pse.position = pbe.Position;
-            pse.season_id = (short)pbe.SeasonID;
-            pse.weight = (short)pbe.Weight;
-
-            pe.PlayerSeason.Add(pse);
-
-            return pe;
+            return ge;
         }
 
-        private static List<PlayerBE> GetPlayerBE(roster players)
+        private static List<PlayerBE> GetPlayerBE(List<rosterPlayer> players)
         {
             var pbeLst = new List<PlayerBE>();
 
-            foreach (rosterPlayer player in players.player)
+            foreach (rosterPlayer player in players)
             {
                 pbeLst.Add(GetPlayerBE(player));
             }
