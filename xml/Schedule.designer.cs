@@ -4,8 +4,7 @@
 //    <NameSpace>MCLAImport</NameSpace><Collection>List</Collection><codeType>CSharp</codeType><EnableDataBinding>False</EnableDataBinding><EnableLazyLoading>True</EnableLazyLoading><TrackingChangesEnable>False</TrackingChangesEnable><GenTrackingClasses>False</GenTrackingClasses><HidePrivateFieldInIDE>False</HidePrivateFieldInIDE><EnableSummaryComment>False</EnableSummaryComment><VirtualProp>False</VirtualProp><IncludeSerializeMethod>True</IncludeSerializeMethod><UseBaseClass>False</UseBaseClass><GenBaseClass>False</GenBaseClass><GenerateCloneMethod>False</GenerateCloneMethod><GenerateDataContracts>False</GenerateDataContracts><CodeBaseTag>Net35</CodeBaseTag><SerializeMethodName>Serialize</SerializeMethodName><DeserializeMethodName>Deserialize</DeserializeMethodName><SaveToFileMethodName>SaveToFile</SaveToFileMethodName><LoadFromFileMethodName>LoadFromFile</LoadFromFileMethodName><GenerateXMLAttributes>True</GenerateXMLAttributes><EnableEncoding>False</EnableEncoding><AutomaticProperties>False</AutomaticProperties><GenerateShouldSerialize>False</GenerateShouldSerialize><DisableDebug>False</DisableDebug><PropNameSpecified>Default</PropNameSpecified><Encoder>UTF8</Encoder><CustomUsings></CustomUsings><ExcludeIncludedTypes>False</ExcludeIncludedTypes><EnableInitializeFields>True</EnableInitializeFields>
 //  </auto-generated>
 // ------------------------------------------------------------------------------
-namespace MCLAImport
-{
+namespace MCLAImport {
     using System;
     using System.Diagnostics;
     using System.Xml.Serialization;
@@ -15,94 +14,78 @@ namespace MCLAImport
     using System.IO;
     using System.Text;
     using System.Collections.Generic;
-
-
+    
+    
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.1")]
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace = "", IsNullable = false)]
-    public partial class schedule
-    {
-
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
+    [System.Xml.Serialization.XmlRootAttribute(Namespace="", IsNullable=false)]
+    public partial class schedule {
+        
         private string generatedField;
-
+        
         private List<scheduleGame> gameField;
-
+        
         private static System.Xml.Serialization.XmlSerializer serializer;
-
-        [System.Xml.Serialization.XmlElementAttribute(Order = 0)]
-        public string generated
-        {
-            get
-            {
+        
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string generated {
+            get {
                 return this.generatedField;
             }
-            set
-            {
+            set {
                 this.generatedField = value;
             }
         }
-
-        [System.Xml.Serialization.XmlElementAttribute("game", Order = 1)]
-        public List<scheduleGame> game
-        {
-            get
-            {
-                if ((this.gameField == null))
-                {
+        
+        [System.Xml.Serialization.XmlElementAttribute("game", Order=1)]
+        public List<scheduleGame> game {
+            get {
+                if ((this.gameField == null)) {
                     this.gameField = new List<scheduleGame>();
                 }
                 return this.gameField;
             }
-            set
-            {
+            set {
                 this.gameField = value;
             }
         }
-
-        private static System.Xml.Serialization.XmlSerializer Serializer
-        {
-            get
-            {
-                if ((serializer == null))
-                {
+        
+        private static System.Xml.Serialization.XmlSerializer Serializer {
+            get {
+                if ((serializer == null)) {
                     serializer = new System.Xml.Serialization.XmlSerializer(typeof(schedule));
                 }
                 return serializer;
             }
         }
-
+        
         #region Serialize/Deserialize
         /// <summary>
         /// Serializes current schedule object into an XML document
         /// </summary>
         /// <returns>string XML value</returns>
-        public virtual string Serialize()
-        {
+        public virtual string Serialize() {
             System.IO.StreamReader streamReader = null;
             System.IO.MemoryStream memoryStream = null;
-            try
-            {
+            try {
                 memoryStream = new System.IO.MemoryStream();
                 Serializer.Serialize(memoryStream, this);
                 memoryStream.Seek(0, System.IO.SeekOrigin.Begin);
                 streamReader = new System.IO.StreamReader(memoryStream);
                 return streamReader.ReadToEnd();
             }
-            finally
-            {
-                if ((streamReader != null))
-                {
+            finally {
+                if ((streamReader != null)) {
                     streamReader.Dispose();
                 }
-                if ((memoryStream != null))
-                {
+                if ((memoryStream != null)) {
                     memoryStream.Dispose();
                 }
             }
         }
-
+        
         /// <summary>
         /// Deserializes workflow markup into an schedule object
         /// </summary>
@@ -110,86 +93,71 @@ namespace MCLAImport
         /// <param name="obj">Output schedule object</param>
         /// <param name="exception">output Exception value if deserialize failed</param>
         /// <returns>true if this XmlSerializer can deserialize the object; otherwise, false</returns>
-        public static bool Deserialize(string xml, out schedule obj, out System.Exception exception)
-        {
+        public static bool Deserialize(string xml, out schedule obj, out System.Exception exception) {
             exception = null;
             obj = default(schedule);
-            try
-            {
+            try {
                 obj = Deserialize(xml);
                 return true;
             }
-            catch (System.Exception ex)
-            {
+            catch (System.Exception ex) {
                 exception = ex;
                 return false;
             }
         }
-
-        public static bool Deserialize(string xml, out schedule obj)
-        {
+        
+        public static bool Deserialize(string xml, out schedule obj) {
             System.Exception exception = null;
             return Deserialize(xml, out obj, out exception);
         }
-
-        public static schedule Deserialize(string xml)
-        {
+        
+        public static schedule Deserialize(string xml) {
             System.IO.StringReader stringReader = null;
-            try
-            {
+            try {
                 stringReader = new System.IO.StringReader(xml);
                 return ((schedule)(Serializer.Deserialize(System.Xml.XmlReader.Create(stringReader))));
             }
-            finally
-            {
-                if ((stringReader != null))
-                {
+            finally {
+                if ((stringReader != null)) {
                     stringReader.Dispose();
                 }
             }
         }
-
+        
         /// <summary>
         /// Serializes current schedule object into file
         /// </summary>
         /// <param name="fileName">full path of outupt xml file</param>
         /// <param name="exception">output Exception value if failed</param>
         /// <returns>true if can serialize and save into file; otherwise, false</returns>
-        public virtual bool SaveToFile(string fileName, out System.Exception exception)
-        {
+        public virtual bool SaveToFile(string fileName, out System.Exception exception) {
             exception = null;
-            try
-            {
+            try {
                 SaveToFile(fileName);
                 return true;
             }
-            catch (System.Exception e)
-            {
+            catch (System.Exception e) {
                 exception = e;
                 return false;
             }
         }
-
-        public virtual void SaveToFile(string fileName)
-        {
+        
+        public virtual void SaveToFile(string fileName) {
             System.IO.StreamWriter streamWriter = null;
-            try
-            {
+            try {
                 string xmlString = Serialize();
                 System.IO.FileInfo xmlFile = new System.IO.FileInfo(fileName);
                 streamWriter = xmlFile.CreateText();
                 streamWriter.WriteLine(xmlString);
                 streamWriter.Close();
             }
-            finally
-            {
-                if ((streamWriter != null))
-                {
+            finally {
+                if ((streamWriter != null)) {
                     streamWriter.Dispose();
                 }
             }
         }
-
+        
         /// <summary>
         /// Deserializes xml markup from file into an schedule object
         /// </summary>
@@ -197,34 +165,28 @@ namespace MCLAImport
         /// <param name="obj">Output schedule object</param>
         /// <param name="exception">output Exception value if deserialize failed</param>
         /// <returns>true if this XmlSerializer can deserialize the object; otherwise, false</returns>
-        public static bool LoadFromFile(string fileName, out schedule obj, out System.Exception exception)
-        {
+        public static bool LoadFromFile(string fileName, out schedule obj, out System.Exception exception) {
             exception = null;
             obj = default(schedule);
-            try
-            {
+            try {
                 obj = LoadFromFile(fileName);
                 return true;
             }
-            catch (System.Exception ex)
-            {
+            catch (System.Exception ex) {
                 exception = ex;
                 return false;
             }
         }
-
-        public static bool LoadFromFile(string fileName, out schedule obj)
-        {
+        
+        public static bool LoadFromFile(string fileName, out schedule obj) {
             System.Exception exception = null;
             return LoadFromFile(fileName, out obj, out exception);
         }
-
-        public static schedule LoadFromFile(string fileName)
-        {
+        
+        public static schedule LoadFromFile(string fileName) {
             System.IO.FileStream file = null;
             System.IO.StreamReader sr = null;
-            try
-            {
+            try {
                 file = new System.IO.FileStream(fileName, FileMode.Open, FileAccess.Read);
                 sr = new System.IO.StreamReader(file);
                 string xmlString = sr.ReadToEnd();
@@ -232,352 +194,284 @@ namespace MCLAImport
                 file.Close();
                 return Deserialize(xmlString);
             }
-            finally
-            {
-                if ((file != null))
-                {
+            finally {
+                if ((file != null)) {
                     file.Dispose();
                 }
-                if ((sr != null))
-                {
+                if ((sr != null)) {
                     sr.Dispose();
                 }
             }
         }
         #endregion
     }
-
+    
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.1")]
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class scheduleGame
-    {
-
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
+    public partial class scheduleGame {
+        
         private ushort game_season_idField;
-
+        
         private System.DateTime game_dateField;
-
+        
         private System.DateTime game_timeField;
-
+        
         private string game_typeField;
-
+        
         private string game_statusField;
-
+        
         private string venueField;
-
+        
         private string away_teamField;
-
+        
         private string away_team_slugField;
-
+        
         private string home_teamField;
-
+        
         private string home_team_slugField;
-
+        
         private string urlField;
-
+        
         private byte away_team_scoreField;
-
+        
         private bool away_team_scoreFieldSpecified;
-
+        
         private byte home_team_scoreField;
-
+        
         private bool home_team_scoreFieldSpecified;
-
-        private List<PlayersPlayer> away_playersField;
-
-        private List<PlayersPlayer> home_playersField;
-
+        
+        private List<PlayerGameStat> away_playersField;
+        
+        private List<PlayerGameStat> home_playersField;
+        
         private ushort idField;
-
+        
         private static System.Xml.Serialization.XmlSerializer serializer;
-
-        [System.Xml.Serialization.XmlElementAttribute(Order = 0)]
-        public ushort game_season_id
-        {
-            get
-            {
+        
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public ushort game_season_id {
+            get {
                 return this.game_season_idField;
             }
-            set
-            {
+            set {
                 this.game_season_idField = value;
             }
         }
-
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "date", Order = 1)]
-        public System.DateTime game_date
-        {
-            get
-            {
+        
+        [System.Xml.Serialization.XmlElementAttribute(DataType="date", Order=1)]
+        public System.DateTime game_date {
+            get {
                 return this.game_dateField;
             }
-            set
-            {
+            set {
                 this.game_dateField = value;
             }
         }
-
-        [System.Xml.Serialization.XmlElementAttribute(DataType = "date", Order = 2)]
-        public System.DateTime game_time
-        {
-            get
-            {
+        
+        [System.Xml.Serialization.XmlElementAttribute(DataType="date", Order=2)]
+        public System.DateTime game_time {
+            get {
                 return this.game_timeField;
             }
-            set
-            {
+            set {
                 this.game_timeField = value;
             }
         }
-
-        [System.Xml.Serialization.XmlElementAttribute(Order = 3)]
-        public string game_type
-        {
-            get
-            {
+        
+        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
+        public string game_type {
+            get {
                 return this.game_typeField;
             }
-            set
-            {
+            set {
                 this.game_typeField = value;
             }
         }
-
-        [System.Xml.Serialization.XmlElementAttribute(Order = 4)]
-        public string game_status
-        {
-            get
-            {
+        
+        [System.Xml.Serialization.XmlElementAttribute(Order=4)]
+        public string game_status {
+            get {
                 return this.game_statusField;
             }
-            set
-            {
+            set {
                 this.game_statusField = value;
             }
         }
-
-        [System.Xml.Serialization.XmlElementAttribute(Order = 5)]
-        public string venue
-        {
-            get
-            {
+        
+        [System.Xml.Serialization.XmlElementAttribute(Order=5)]
+        public string venue {
+            get {
                 return this.venueField;
             }
-            set
-            {
+            set {
                 this.venueField = value;
             }
         }
-
-        [System.Xml.Serialization.XmlElementAttribute(Order = 6)]
-        public string away_team
-        {
-            get
-            {
+        
+        [System.Xml.Serialization.XmlElementAttribute(Order=6)]
+        public string away_team {
+            get {
                 return this.away_teamField;
             }
-            set
-            {
+            set {
                 this.away_teamField = value;
             }
         }
-
-        [System.Xml.Serialization.XmlElementAttribute(Order = 7)]
-        public string away_team_slug
-        {
-            get
-            {
+        
+        [System.Xml.Serialization.XmlElementAttribute(Order=7)]
+        public string away_team_slug {
+            get {
                 return this.away_team_slugField;
             }
-            set
-            {
+            set {
                 this.away_team_slugField = value;
             }
         }
-
-        [System.Xml.Serialization.XmlElementAttribute(Order = 8)]
-        public string home_team
-        {
-            get
-            {
+        
+        [System.Xml.Serialization.XmlElementAttribute(Order=8)]
+        public string home_team {
+            get {
                 return this.home_teamField;
             }
-            set
-            {
+            set {
                 this.home_teamField = value;
             }
         }
-
-        [System.Xml.Serialization.XmlElementAttribute(Order = 9)]
-        public string home_team_slug
-        {
-            get
-            {
+        
+        [System.Xml.Serialization.XmlElementAttribute(Order=9)]
+        public string home_team_slug {
+            get {
                 return this.home_team_slugField;
             }
-            set
-            {
+            set {
                 this.home_team_slugField = value;
             }
         }
-
-        [System.Xml.Serialization.XmlElementAttribute(Order = 10)]
-        public string url
-        {
-            get
-            {
+        
+        [System.Xml.Serialization.XmlElementAttribute(Order=10)]
+        public string url {
+            get {
                 return this.urlField;
             }
-            set
-            {
+            set {
                 this.urlField = value;
             }
         }
-
-        [System.Xml.Serialization.XmlElementAttribute(Order = 11)]
-        public byte away_team_score
-        {
-            get
-            {
+        
+        [System.Xml.Serialization.XmlElementAttribute(Order=11)]
+        public byte away_team_score {
+            get {
                 return this.away_team_scoreField;
             }
-            set
-            {
+            set {
                 this.away_team_scoreField = value;
             }
         }
-
+        
         [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool away_team_scoreSpecified
-        {
-            get
-            {
+        public bool away_team_scoreSpecified {
+            get {
                 return this.away_team_scoreFieldSpecified;
             }
-            set
-            {
+            set {
                 this.away_team_scoreFieldSpecified = value;
             }
         }
-
-        [System.Xml.Serialization.XmlElementAttribute(Order = 12)]
-        public byte home_team_score
-        {
-            get
-            {
+        
+        [System.Xml.Serialization.XmlElementAttribute(Order=12)]
+        public byte home_team_score {
+            get {
                 return this.home_team_scoreField;
             }
-            set
-            {
+            set {
                 this.home_team_scoreField = value;
             }
         }
-
+        
         [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool home_team_scoreSpecified
-        {
-            get
-            {
+        public bool home_team_scoreSpecified {
+            get {
                 return this.home_team_scoreFieldSpecified;
             }
-            set
-            {
+            set {
                 this.home_team_scoreFieldSpecified = value;
             }
         }
-
-        [System.Xml.Serialization.XmlArrayAttribute(Order = 13)]
-        [System.Xml.Serialization.XmlArrayItemAttribute("player", IsNullable = false)]
-        public List<PlayersPlayer> away_players
-        {
-            get
-            {
-                if ((this.away_playersField == null))
-                {
-                    this.away_playersField = new List<PlayersPlayer>();
+        
+        [System.Xml.Serialization.XmlArrayAttribute(Order=13)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("player", IsNullable=false)]
+        public List<PlayerGameStat> away_players {
+            get {
+                if ((this.away_playersField == null)) {
+                    this.away_playersField = new List<PlayerGameStat>();
                 }
                 return this.away_playersField;
             }
-            set
-            {
+            set {
                 this.away_playersField = value;
             }
         }
-
-        [System.Xml.Serialization.XmlArrayAttribute(Order = 14)]
-        [System.Xml.Serialization.XmlArrayItemAttribute("player", IsNullable = false)]
-        public List<PlayersPlayer> home_players
-        {
-            get
-            {
-                if ((this.home_playersField == null))
-                {
-                    this.home_playersField = new List<PlayersPlayer>();
+        
+        [System.Xml.Serialization.XmlArrayAttribute(Order=14)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("player", IsNullable=false)]
+        public List<PlayerGameStat> home_players {
+            get {
+                if ((this.home_playersField == null)) {
+                    this.home_playersField = new List<PlayerGameStat>();
                 }
                 return this.home_playersField;
             }
-            set
-            {
+            set {
                 this.home_playersField = value;
             }
         }
-
+        
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public ushort id
-        {
-            get
-            {
+        public ushort id {
+            get {
                 return this.idField;
             }
-            set
-            {
+            set {
                 this.idField = value;
             }
         }
-
-        private static System.Xml.Serialization.XmlSerializer Serializer
-        {
-            get
-            {
-                if ((serializer == null))
-                {
+        
+        private static System.Xml.Serialization.XmlSerializer Serializer {
+            get {
+                if ((serializer == null)) {
                     serializer = new System.Xml.Serialization.XmlSerializer(typeof(scheduleGame));
                 }
                 return serializer;
             }
         }
-
+        
         #region Serialize/Deserialize
         /// <summary>
         /// Serializes current scheduleGame object into an XML document
         /// </summary>
         /// <returns>string XML value</returns>
-        public virtual string Serialize()
-        {
+        public virtual string Serialize() {
             System.IO.StreamReader streamReader = null;
             System.IO.MemoryStream memoryStream = null;
-            try
-            {
+            try {
                 memoryStream = new System.IO.MemoryStream();
                 Serializer.Serialize(memoryStream, this);
                 memoryStream.Seek(0, System.IO.SeekOrigin.Begin);
                 streamReader = new System.IO.StreamReader(memoryStream);
                 return streamReader.ReadToEnd();
             }
-            finally
-            {
-                if ((streamReader != null))
-                {
+            finally {
+                if ((streamReader != null)) {
                     streamReader.Dispose();
                 }
-                if ((memoryStream != null))
-                {
+                if ((memoryStream != null)) {
                     memoryStream.Dispose();
                 }
             }
         }
-
+        
         /// <summary>
         /// Deserializes workflow markup into an scheduleGame object
         /// </summary>
@@ -585,86 +479,71 @@ namespace MCLAImport
         /// <param name="obj">Output scheduleGame object</param>
         /// <param name="exception">output Exception value if deserialize failed</param>
         /// <returns>true if this XmlSerializer can deserialize the object; otherwise, false</returns>
-        public static bool Deserialize(string xml, out scheduleGame obj, out System.Exception exception)
-        {
+        public static bool Deserialize(string xml, out scheduleGame obj, out System.Exception exception) {
             exception = null;
             obj = default(scheduleGame);
-            try
-            {
+            try {
                 obj = Deserialize(xml);
                 return true;
             }
-            catch (System.Exception ex)
-            {
+            catch (System.Exception ex) {
                 exception = ex;
                 return false;
             }
         }
-
-        public static bool Deserialize(string xml, out scheduleGame obj)
-        {
+        
+        public static bool Deserialize(string xml, out scheduleGame obj) {
             System.Exception exception = null;
             return Deserialize(xml, out obj, out exception);
         }
-
-        public static scheduleGame Deserialize(string xml)
-        {
+        
+        public static scheduleGame Deserialize(string xml) {
             System.IO.StringReader stringReader = null;
-            try
-            {
+            try {
                 stringReader = new System.IO.StringReader(xml);
                 return ((scheduleGame)(Serializer.Deserialize(System.Xml.XmlReader.Create(stringReader))));
             }
-            finally
-            {
-                if ((stringReader != null))
-                {
+            finally {
+                if ((stringReader != null)) {
                     stringReader.Dispose();
                 }
             }
         }
-
+        
         /// <summary>
         /// Serializes current scheduleGame object into file
         /// </summary>
         /// <param name="fileName">full path of outupt xml file</param>
         /// <param name="exception">output Exception value if failed</param>
         /// <returns>true if can serialize and save into file; otherwise, false</returns>
-        public virtual bool SaveToFile(string fileName, out System.Exception exception)
-        {
+        public virtual bool SaveToFile(string fileName, out System.Exception exception) {
             exception = null;
-            try
-            {
+            try {
                 SaveToFile(fileName);
                 return true;
             }
-            catch (System.Exception e)
-            {
+            catch (System.Exception e) {
                 exception = e;
                 return false;
             }
         }
-
-        public virtual void SaveToFile(string fileName)
-        {
+        
+        public virtual void SaveToFile(string fileName) {
             System.IO.StreamWriter streamWriter = null;
-            try
-            {
+            try {
                 string xmlString = Serialize();
                 System.IO.FileInfo xmlFile = new System.IO.FileInfo(fileName);
                 streamWriter = xmlFile.CreateText();
                 streamWriter.WriteLine(xmlString);
                 streamWriter.Close();
             }
-            finally
-            {
-                if ((streamWriter != null))
-                {
+            finally {
+                if ((streamWriter != null)) {
                     streamWriter.Dispose();
                 }
             }
         }
-
+        
         /// <summary>
         /// Deserializes xml markup from file into an scheduleGame object
         /// </summary>
@@ -672,34 +551,28 @@ namespace MCLAImport
         /// <param name="obj">Output scheduleGame object</param>
         /// <param name="exception">output Exception value if deserialize failed</param>
         /// <returns>true if this XmlSerializer can deserialize the object; otherwise, false</returns>
-        public static bool LoadFromFile(string fileName, out scheduleGame obj, out System.Exception exception)
-        {
+        public static bool LoadFromFile(string fileName, out scheduleGame obj, out System.Exception exception) {
             exception = null;
             obj = default(scheduleGame);
-            try
-            {
+            try {
                 obj = LoadFromFile(fileName);
                 return true;
             }
-            catch (System.Exception ex)
-            {
+            catch (System.Exception ex) {
                 exception = ex;
                 return false;
             }
         }
-
-        public static bool LoadFromFile(string fileName, out scheduleGame obj)
-        {
+        
+        public static bool LoadFromFile(string fileName, out scheduleGame obj) {
             System.Exception exception = null;
             return LoadFromFile(fileName, out obj, out exception);
         }
-
-        public static scheduleGame LoadFromFile(string fileName)
-        {
+        
+        public static scheduleGame LoadFromFile(string fileName) {
             System.IO.FileStream file = null;
             System.IO.StreamReader sr = null;
-            try
-            {
+            try {
                 file = new System.IO.FileStream(fileName, FileMode.Open, FileAccess.Read);
                 sr = new System.IO.StreamReader(file);
                 string xmlString = sr.ReadToEnd();
@@ -707,269 +580,221 @@ namespace MCLAImport
                 file.Close();
                 return Deserialize(xmlString);
             }
-            finally
-            {
-                if ((file != null))
-                {
+            finally {
+                if ((file != null)) {
                     file.Dispose();
                 }
-                if ((sr != null))
-                {
+                if ((sr != null)) {
                     sr.Dispose();
                 }
             }
         }
         #endregion
     }
-
+    
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.1")]
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class PlayersPlayer
-    {
-
+    [System.Xml.Serialization.XmlRootAttribute(Namespace="", IsNullable=true)]
+    public partial class PlayerGameStat {
+        
         private byte assistsField;
-
+        
         private byte goalsField;
-
+        
         private byte savesField;
-
+        
         private byte gaField;
-
+        
         private ushort idField;
-
+        
         private static System.Xml.Serialization.XmlSerializer serializer;
-
-        [System.Xml.Serialization.XmlElementAttribute(Order = 0)]
-        public byte assists
-        {
-            get
-            {
+        
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public byte assists {
+            get {
                 return this.assistsField;
             }
-            set
-            {
+            set {
                 this.assistsField = value;
             }
         }
-
-        [System.Xml.Serialization.XmlElementAttribute(Order = 1)]
-        public byte goals
-        {
-            get
-            {
+        
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public byte goals {
+            get {
                 return this.goalsField;
             }
-            set
-            {
+            set {
                 this.goalsField = value;
             }
         }
-
-        [System.Xml.Serialization.XmlElementAttribute(Order = 2)]
-        public byte saves
-        {
-            get
-            {
+        
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public byte saves {
+            get {
                 return this.savesField;
             }
-            set
-            {
+            set {
                 this.savesField = value;
             }
         }
-
-        [System.Xml.Serialization.XmlElementAttribute(Order = 3)]
-        public byte ga
-        {
-            get
-            {
+        
+        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
+        public byte ga {
+            get {
                 return this.gaField;
             }
-            set
-            {
+            set {
                 this.gaField = value;
             }
         }
-
+        
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public ushort id
-        {
-            get
-            {
+        public ushort id {
+            get {
                 return this.idField;
             }
-            set
-            {
+            set {
                 this.idField = value;
             }
         }
-
-        private static System.Xml.Serialization.XmlSerializer Serializer
-        {
-            get
-            {
-                if ((serializer == null))
-                {
-                    serializer = new System.Xml.Serialization.XmlSerializer(typeof(PlayersPlayer));
+        
+        private static System.Xml.Serialization.XmlSerializer Serializer {
+            get {
+                if ((serializer == null)) {
+                    serializer = new System.Xml.Serialization.XmlSerializer(typeof(PlayerGameStat));
                 }
                 return serializer;
             }
         }
-
+        
         #region Serialize/Deserialize
         /// <summary>
-        /// Serializes current PlayersPlayer object into an XML document
+        /// Serializes current PlayerGameStat object into an XML document
         /// </summary>
         /// <returns>string XML value</returns>
-        public virtual string Serialize()
-        {
+        public virtual string Serialize() {
             System.IO.StreamReader streamReader = null;
             System.IO.MemoryStream memoryStream = null;
-            try
-            {
+            try {
                 memoryStream = new System.IO.MemoryStream();
                 Serializer.Serialize(memoryStream, this);
                 memoryStream.Seek(0, System.IO.SeekOrigin.Begin);
                 streamReader = new System.IO.StreamReader(memoryStream);
                 return streamReader.ReadToEnd();
             }
-            finally
-            {
-                if ((streamReader != null))
-                {
+            finally {
+                if ((streamReader != null)) {
                     streamReader.Dispose();
                 }
-                if ((memoryStream != null))
-                {
+                if ((memoryStream != null)) {
                     memoryStream.Dispose();
                 }
             }
         }
-
+        
         /// <summary>
-        /// Deserializes workflow markup into an PlayersPlayer object
+        /// Deserializes workflow markup into an PlayerGameStat object
         /// </summary>
         /// <param name="xml">string workflow markup to deserialize</param>
-        /// <param name="obj">Output PlayersPlayer object</param>
+        /// <param name="obj">Output PlayerGameStat object</param>
         /// <param name="exception">output Exception value if deserialize failed</param>
         /// <returns>true if this XmlSerializer can deserialize the object; otherwise, false</returns>
-        public static bool Deserialize(string xml, out PlayersPlayer obj, out System.Exception exception)
-        {
+        public static bool Deserialize(string xml, out PlayerGameStat obj, out System.Exception exception) {
             exception = null;
-            obj = default(PlayersPlayer);
-            try
-            {
+            obj = default(PlayerGameStat);
+            try {
                 obj = Deserialize(xml);
                 return true;
             }
-            catch (System.Exception ex)
-            {
+            catch (System.Exception ex) {
                 exception = ex;
                 return false;
             }
         }
-
-        public static bool Deserialize(string xml, out PlayersPlayer obj)
-        {
+        
+        public static bool Deserialize(string xml, out PlayerGameStat obj) {
             System.Exception exception = null;
             return Deserialize(xml, out obj, out exception);
         }
-
-        public static PlayersPlayer Deserialize(string xml)
-        {
+        
+        public static PlayerGameStat Deserialize(string xml) {
             System.IO.StringReader stringReader = null;
-            try
-            {
+            try {
                 stringReader = new System.IO.StringReader(xml);
-                return ((PlayersPlayer)(Serializer.Deserialize(System.Xml.XmlReader.Create(stringReader))));
+                return ((PlayerGameStat)(Serializer.Deserialize(System.Xml.XmlReader.Create(stringReader))));
             }
-            finally
-            {
-                if ((stringReader != null))
-                {
+            finally {
+                if ((stringReader != null)) {
                     stringReader.Dispose();
                 }
             }
         }
-
+        
         /// <summary>
-        /// Serializes current PlayersPlayer object into file
+        /// Serializes current PlayerGameStat object into file
         /// </summary>
         /// <param name="fileName">full path of outupt xml file</param>
         /// <param name="exception">output Exception value if failed</param>
         /// <returns>true if can serialize and save into file; otherwise, false</returns>
-        public virtual bool SaveToFile(string fileName, out System.Exception exception)
-        {
+        public virtual bool SaveToFile(string fileName, out System.Exception exception) {
             exception = null;
-            try
-            {
+            try {
                 SaveToFile(fileName);
                 return true;
             }
-            catch (System.Exception e)
-            {
+            catch (System.Exception e) {
                 exception = e;
                 return false;
             }
         }
-
-        public virtual void SaveToFile(string fileName)
-        {
+        
+        public virtual void SaveToFile(string fileName) {
             System.IO.StreamWriter streamWriter = null;
-            try
-            {
+            try {
                 string xmlString = Serialize();
                 System.IO.FileInfo xmlFile = new System.IO.FileInfo(fileName);
                 streamWriter = xmlFile.CreateText();
                 streamWriter.WriteLine(xmlString);
                 streamWriter.Close();
             }
-            finally
-            {
-                if ((streamWriter != null))
-                {
+            finally {
+                if ((streamWriter != null)) {
                     streamWriter.Dispose();
                 }
             }
         }
-
+        
         /// <summary>
-        /// Deserializes xml markup from file into an PlayersPlayer object
+        /// Deserializes xml markup from file into an PlayerGameStat object
         /// </summary>
         /// <param name="fileName">string xml file to load and deserialize</param>
-        /// <param name="obj">Output PlayersPlayer object</param>
+        /// <param name="obj">Output PlayerGameStat object</param>
         /// <param name="exception">output Exception value if deserialize failed</param>
         /// <returns>true if this XmlSerializer can deserialize the object; otherwise, false</returns>
-        public static bool LoadFromFile(string fileName, out PlayersPlayer obj, out System.Exception exception)
-        {
+        public static bool LoadFromFile(string fileName, out PlayerGameStat obj, out System.Exception exception) {
             exception = null;
-            obj = default(PlayersPlayer);
-            try
-            {
+            obj = default(PlayerGameStat);
+            try {
                 obj = LoadFromFile(fileName);
                 return true;
             }
-            catch (System.Exception ex)
-            {
+            catch (System.Exception ex) {
                 exception = ex;
                 return false;
             }
         }
-
-        public static bool LoadFromFile(string fileName, out PlayersPlayer obj)
-        {
+        
+        public static bool LoadFromFile(string fileName, out PlayerGameStat obj) {
             System.Exception exception = null;
             return LoadFromFile(fileName, out obj, out exception);
         }
-
-        public static PlayersPlayer LoadFromFile(string fileName)
-        {
+        
+        public static PlayerGameStat LoadFromFile(string fileName) {
             System.IO.FileStream file = null;
             System.IO.StreamReader sr = null;
-            try
-            {
+            try {
                 file = new System.IO.FileStream(fileName, FileMode.Open, FileAccess.Read);
                 sr = new System.IO.StreamReader(file);
                 string xmlString = sr.ReadToEnd();
@@ -977,228 +802,11 @@ namespace MCLAImport
                 file.Close();
                 return Deserialize(xmlString);
             }
-            finally
-            {
-                if ((file != null))
-                {
+            finally {
+                if ((file != null)) {
                     file.Dispose();
                 }
-                if ((sr != null))
-                {
-                    sr.Dispose();
-                }
-            }
-        }
-        #endregion
-    }
-
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.1")]
-    [System.SerializableAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace = "", IsNullable = true)]
-    public partial class Players
-    {
-
-        private List<PlayersPlayer> playerField;
-
-        private static System.Xml.Serialization.XmlSerializer serializer;
-
-        [System.Xml.Serialization.XmlElementAttribute("player", Order = 0)]
-        public List<PlayersPlayer> player
-        {
-            get
-            {
-                if ((this.playerField == null))
-                {
-                    this.playerField = new List<PlayersPlayer>();
-                }
-                return this.playerField;
-            }
-            set
-            {
-                this.playerField = value;
-            }
-        }
-
-        private static System.Xml.Serialization.XmlSerializer Serializer
-        {
-            get
-            {
-                if ((serializer == null))
-                {
-                    serializer = new System.Xml.Serialization.XmlSerializer(typeof(Players));
-                }
-                return serializer;
-            }
-        }
-
-        #region Serialize/Deserialize
-        /// <summary>
-        /// Serializes current Players object into an XML document
-        /// </summary>
-        /// <returns>string XML value</returns>
-        public virtual string Serialize()
-        {
-            System.IO.StreamReader streamReader = null;
-            System.IO.MemoryStream memoryStream = null;
-            try
-            {
-                memoryStream = new System.IO.MemoryStream();
-                Serializer.Serialize(memoryStream, this);
-                memoryStream.Seek(0, System.IO.SeekOrigin.Begin);
-                streamReader = new System.IO.StreamReader(memoryStream);
-                return streamReader.ReadToEnd();
-            }
-            finally
-            {
-                if ((streamReader != null))
-                {
-                    streamReader.Dispose();
-                }
-                if ((memoryStream != null))
-                {
-                    memoryStream.Dispose();
-                }
-            }
-        }
-
-        /// <summary>
-        /// Deserializes workflow markup into an Players object
-        /// </summary>
-        /// <param name="xml">string workflow markup to deserialize</param>
-        /// <param name="obj">Output Players object</param>
-        /// <param name="exception">output Exception value if deserialize failed</param>
-        /// <returns>true if this XmlSerializer can deserialize the object; otherwise, false</returns>
-        public static bool Deserialize(string xml, out Players obj, out System.Exception exception)
-        {
-            exception = null;
-            obj = default(Players);
-            try
-            {
-                obj = Deserialize(xml);
-                return true;
-            }
-            catch (System.Exception ex)
-            {
-                exception = ex;
-                return false;
-            }
-        }
-
-        public static bool Deserialize(string xml, out Players obj)
-        {
-            System.Exception exception = null;
-            return Deserialize(xml, out obj, out exception);
-        }
-
-        public static Players Deserialize(string xml)
-        {
-            System.IO.StringReader stringReader = null;
-            try
-            {
-                stringReader = new System.IO.StringReader(xml);
-                return ((Players)(Serializer.Deserialize(System.Xml.XmlReader.Create(stringReader))));
-            }
-            finally
-            {
-                if ((stringReader != null))
-                {
-                    stringReader.Dispose();
-                }
-            }
-        }
-
-        /// <summary>
-        /// Serializes current Players object into file
-        /// </summary>
-        /// <param name="fileName">full path of outupt xml file</param>
-        /// <param name="exception">output Exception value if failed</param>
-        /// <returns>true if can serialize and save into file; otherwise, false</returns>
-        public virtual bool SaveToFile(string fileName, out System.Exception exception)
-        {
-            exception = null;
-            try
-            {
-                SaveToFile(fileName);
-                return true;
-            }
-            catch (System.Exception e)
-            {
-                exception = e;
-                return false;
-            }
-        }
-
-        public virtual void SaveToFile(string fileName)
-        {
-            System.IO.StreamWriter streamWriter = null;
-            try
-            {
-                string xmlString = Serialize();
-                System.IO.FileInfo xmlFile = new System.IO.FileInfo(fileName);
-                streamWriter = xmlFile.CreateText();
-                streamWriter.WriteLine(xmlString);
-                streamWriter.Close();
-            }
-            finally
-            {
-                if ((streamWriter != null))
-                {
-                    streamWriter.Dispose();
-                }
-            }
-        }
-
-        /// <summary>
-        /// Deserializes xml markup from file into an Players object
-        /// </summary>
-        /// <param name="fileName">string xml file to load and deserialize</param>
-        /// <param name="obj">Output Players object</param>
-        /// <param name="exception">output Exception value if deserialize failed</param>
-        /// <returns>true if this XmlSerializer can deserialize the object; otherwise, false</returns>
-        public static bool LoadFromFile(string fileName, out Players obj, out System.Exception exception)
-        {
-            exception = null;
-            obj = default(Players);
-            try
-            {
-                obj = LoadFromFile(fileName);
-                return true;
-            }
-            catch (System.Exception ex)
-            {
-                exception = ex;
-                return false;
-            }
-        }
-
-        public static bool LoadFromFile(string fileName, out Players obj)
-        {
-            System.Exception exception = null;
-            return LoadFromFile(fileName, out obj, out exception);
-        }
-
-        public static Players LoadFromFile(string fileName)
-        {
-            System.IO.FileStream file = null;
-            System.IO.StreamReader sr = null;
-            try
-            {
-                file = new System.IO.FileStream(fileName, FileMode.Open, FileAccess.Read);
-                sr = new System.IO.StreamReader(file);
-                string xmlString = sr.ReadToEnd();
-                sr.Close();
-                file.Close();
-                return Deserialize(xmlString);
-            }
-            finally
-            {
-                if ((file != null))
-                {
-                    file.Dispose();
-                }
-                if ((sr != null))
-                {
+                if ((sr != null)) {
                     sr.Dispose();
                 }
             }
