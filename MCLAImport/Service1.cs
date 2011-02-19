@@ -60,11 +60,11 @@ namespace MCLAImport
             return pgbeLst;
         }
 
-        private static List<PlayerGameBE> GetPlayerGameBE(List<PlayersPlayer> players, ushort gameID)
+        private static List<PlayerGameBE> GetPlayerGameBE(List<PlayerGameStat> players, ushort gameID)
         {
             var pgbeLst = new List<PlayerGameBE>();
 
-            foreach (PlayersPlayer player in players)
+            foreach (PlayerGameStat player in players)
             {
                 pgbeLst.Add(new PlayerGameBE
                 {
