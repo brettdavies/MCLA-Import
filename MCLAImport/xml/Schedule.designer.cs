@@ -256,13 +256,13 @@ namespace MCLAImport
 
         private ushort game_season_idField;
 
-        private string game_dateField;
+        private System.DateTime game_dateField;
 
-        private string game_timeField;
+        private System.DateTime game_timeField;
 
         private string game_typeField;
 
-        private byte game_statusField;
+        private string game_statusField;
 
         private string venueField;
 
@@ -284,9 +284,9 @@ namespace MCLAImport
 
         private bool home_team_scoreFieldSpecified;
 
-        private List<scheduleGamePlayer> away_playersField;
+        private List<PlayersPlayer> away_playersField;
 
-        private List<scheduleGamePlayer1> home_playersField;
+        private List<PlayersPlayer> home_playersField;
 
         private ushort idField;
 
@@ -305,8 +305,8 @@ namespace MCLAImport
             }
         }
 
-        [System.Xml.Serialization.XmlElementAttribute(Order = 1)]
-        public string game_date
+        [System.Xml.Serialization.XmlElementAttribute(DataType = "date", Order = 1)]
+        public System.DateTime game_date
         {
             get
             {
@@ -318,8 +318,8 @@ namespace MCLAImport
             }
         }
 
-        [System.Xml.Serialization.XmlElementAttribute(Order = 2)]
-        public string game_time
+        [System.Xml.Serialization.XmlElementAttribute(DataType = "date", Order = 2)]
+        public System.DateTime game_time
         {
             get
             {
@@ -345,7 +345,7 @@ namespace MCLAImport
         }
 
         [System.Xml.Serialization.XmlElementAttribute(Order = 4)]
-        public byte game_status
+        public string game_status
         {
             get
             {
@@ -489,13 +489,13 @@ namespace MCLAImport
 
         [System.Xml.Serialization.XmlArrayAttribute(Order = 13)]
         [System.Xml.Serialization.XmlArrayItemAttribute("player", IsNullable = false)]
-        public List<scheduleGamePlayer> away_players
+        public List<PlayersPlayer> away_players
         {
             get
             {
                 if ((this.away_playersField == null))
                 {
-                    this.away_playersField = new List<scheduleGamePlayer>();
+                    this.away_playersField = new List<PlayersPlayer>();
                 }
                 return this.away_playersField;
             }
@@ -507,13 +507,13 @@ namespace MCLAImport
 
         [System.Xml.Serialization.XmlArrayAttribute(Order = 14)]
         [System.Xml.Serialization.XmlArrayItemAttribute("player", IsNullable = false)]
-        public List<scheduleGamePlayer1> home_players
+        public List<PlayersPlayer> home_players
         {
             get
             {
                 if ((this.home_playersField == null))
                 {
-                    this.home_playersField = new List<scheduleGamePlayer1>();
+                    this.home_playersField = new List<PlayersPlayer>();
                 }
                 return this.home_playersField;
             }
@@ -726,7 +726,7 @@ namespace MCLAImport
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class scheduleGamePlayer
+    public partial class PlayersPlayer
     {
 
         private byte assistsField;
@@ -812,7 +812,7 @@ namespace MCLAImport
             {
                 if ((serializer == null))
                 {
-                    serializer = new System.Xml.Serialization.XmlSerializer(typeof(scheduleGamePlayer));
+                    serializer = new System.Xml.Serialization.XmlSerializer(typeof(PlayersPlayer));
                 }
                 return serializer;
             }
@@ -820,7 +820,7 @@ namespace MCLAImport
 
         #region Serialize/Deserialize
         /// <summary>
-        /// Serializes current scheduleGamePlayer object into an XML document
+        /// Serializes current PlayersPlayer object into an XML document
         /// </summary>
         /// <returns>string XML value</returns>
         public virtual string Serialize()
@@ -849,16 +849,16 @@ namespace MCLAImport
         }
 
         /// <summary>
-        /// Deserializes workflow markup into an scheduleGamePlayer object
+        /// Deserializes workflow markup into an PlayersPlayer object
         /// </summary>
         /// <param name="xml">string workflow markup to deserialize</param>
-        /// <param name="obj">Output scheduleGamePlayer object</param>
+        /// <param name="obj">Output PlayersPlayer object</param>
         /// <param name="exception">output Exception value if deserialize failed</param>
         /// <returns>true if this XmlSerializer can deserialize the object; otherwise, false</returns>
-        public static bool Deserialize(string xml, out scheduleGamePlayer obj, out System.Exception exception)
+        public static bool Deserialize(string xml, out PlayersPlayer obj, out System.Exception exception)
         {
             exception = null;
-            obj = default(scheduleGamePlayer);
+            obj = default(PlayersPlayer);
             try
             {
                 obj = Deserialize(xml);
@@ -871,19 +871,19 @@ namespace MCLAImport
             }
         }
 
-        public static bool Deserialize(string xml, out scheduleGamePlayer obj)
+        public static bool Deserialize(string xml, out PlayersPlayer obj)
         {
             System.Exception exception = null;
             return Deserialize(xml, out obj, out exception);
         }
 
-        public static scheduleGamePlayer Deserialize(string xml)
+        public static PlayersPlayer Deserialize(string xml)
         {
             System.IO.StringReader stringReader = null;
             try
             {
                 stringReader = new System.IO.StringReader(xml);
-                return ((scheduleGamePlayer)(Serializer.Deserialize(System.Xml.XmlReader.Create(stringReader))));
+                return ((PlayersPlayer)(Serializer.Deserialize(System.Xml.XmlReader.Create(stringReader))));
             }
             finally
             {
@@ -895,7 +895,7 @@ namespace MCLAImport
         }
 
         /// <summary>
-        /// Serializes current scheduleGamePlayer object into file
+        /// Serializes current PlayersPlayer object into file
         /// </summary>
         /// <param name="fileName">full path of outupt xml file</param>
         /// <param name="exception">output Exception value if failed</param>
@@ -936,16 +936,16 @@ namespace MCLAImport
         }
 
         /// <summary>
-        /// Deserializes xml markup from file into an scheduleGamePlayer object
+        /// Deserializes xml markup from file into an PlayersPlayer object
         /// </summary>
         /// <param name="fileName">string xml file to load and deserialize</param>
-        /// <param name="obj">Output scheduleGamePlayer object</param>
+        /// <param name="obj">Output PlayersPlayer object</param>
         /// <param name="exception">output Exception value if deserialize failed</param>
         /// <returns>true if this XmlSerializer can deserialize the object; otherwise, false</returns>
-        public static bool LoadFromFile(string fileName, out scheduleGamePlayer obj, out System.Exception exception)
+        public static bool LoadFromFile(string fileName, out PlayersPlayer obj, out System.Exception exception)
         {
             exception = null;
-            obj = default(scheduleGamePlayer);
+            obj = default(PlayersPlayer);
             try
             {
                 obj = LoadFromFile(fileName);
@@ -958,13 +958,13 @@ namespace MCLAImport
             }
         }
 
-        public static bool LoadFromFile(string fileName, out scheduleGamePlayer obj)
+        public static bool LoadFromFile(string fileName, out PlayersPlayer obj)
         {
             System.Exception exception = null;
             return LoadFromFile(fileName, out obj, out exception);
         }
 
-        public static scheduleGamePlayer LoadFromFile(string fileName)
+        public static PlayersPlayer LoadFromFile(string fileName)
         {
             System.IO.FileStream file = null;
             System.IO.StreamReader sr = null;
@@ -995,84 +995,28 @@ namespace MCLAImport
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.1")]
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class scheduleGamePlayer1
+    [System.Xml.Serialization.XmlRootAttribute(Namespace = "", IsNullable = true)]
+    public partial class Players
     {
 
-        private byte assistsField;
-
-        private byte goalsField;
-
-        private byte savesField;
-
-        private byte gaField;
-
-        private ushort idField;
+        private List<PlayersPlayer> playerField;
 
         private static System.Xml.Serialization.XmlSerializer serializer;
 
-        [System.Xml.Serialization.XmlElementAttribute(Order = 0)]
-        public byte assists
+        [System.Xml.Serialization.XmlElementAttribute("player", Order = 0)]
+        public List<PlayersPlayer> player
         {
             get
             {
-                return this.assistsField;
+                if ((this.playerField == null))
+                {
+                    this.playerField = new List<PlayersPlayer>();
+                }
+                return this.playerField;
             }
             set
             {
-                this.assistsField = value;
-            }
-        }
-
-        [System.Xml.Serialization.XmlElementAttribute(Order = 1)]
-        public byte goals
-        {
-            get
-            {
-                return this.goalsField;
-            }
-            set
-            {
-                this.goalsField = value;
-            }
-        }
-
-        [System.Xml.Serialization.XmlElementAttribute(Order = 2)]
-        public byte saves
-        {
-            get
-            {
-                return this.savesField;
-            }
-            set
-            {
-                this.savesField = value;
-            }
-        }
-
-        [System.Xml.Serialization.XmlElementAttribute(Order = 3)]
-        public byte ga
-        {
-            get
-            {
-                return this.gaField;
-            }
-            set
-            {
-                this.gaField = value;
-            }
-        }
-
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public ushort id
-        {
-            get
-            {
-                return this.idField;
-            }
-            set
-            {
-                this.idField = value;
+                this.playerField = value;
             }
         }
 
@@ -1082,7 +1026,7 @@ namespace MCLAImport
             {
                 if ((serializer == null))
                 {
-                    serializer = new System.Xml.Serialization.XmlSerializer(typeof(scheduleGamePlayer1));
+                    serializer = new System.Xml.Serialization.XmlSerializer(typeof(Players));
                 }
                 return serializer;
             }
@@ -1090,7 +1034,7 @@ namespace MCLAImport
 
         #region Serialize/Deserialize
         /// <summary>
-        /// Serializes current scheduleGamePlayer1 object into an XML document
+        /// Serializes current Players object into an XML document
         /// </summary>
         /// <returns>string XML value</returns>
         public virtual string Serialize()
@@ -1119,16 +1063,16 @@ namespace MCLAImport
         }
 
         /// <summary>
-        /// Deserializes workflow markup into an scheduleGamePlayer1 object
+        /// Deserializes workflow markup into an Players object
         /// </summary>
         /// <param name="xml">string workflow markup to deserialize</param>
-        /// <param name="obj">Output scheduleGamePlayer1 object</param>
+        /// <param name="obj">Output Players object</param>
         /// <param name="exception">output Exception value if deserialize failed</param>
         /// <returns>true if this XmlSerializer can deserialize the object; otherwise, false</returns>
-        public static bool Deserialize(string xml, out scheduleGamePlayer1 obj, out System.Exception exception)
+        public static bool Deserialize(string xml, out Players obj, out System.Exception exception)
         {
             exception = null;
-            obj = default(scheduleGamePlayer1);
+            obj = default(Players);
             try
             {
                 obj = Deserialize(xml);
@@ -1141,19 +1085,19 @@ namespace MCLAImport
             }
         }
 
-        public static bool Deserialize(string xml, out scheduleGamePlayer1 obj)
+        public static bool Deserialize(string xml, out Players obj)
         {
             System.Exception exception = null;
             return Deserialize(xml, out obj, out exception);
         }
 
-        public static scheduleGamePlayer1 Deserialize(string xml)
+        public static Players Deserialize(string xml)
         {
             System.IO.StringReader stringReader = null;
             try
             {
                 stringReader = new System.IO.StringReader(xml);
-                return ((scheduleGamePlayer1)(Serializer.Deserialize(System.Xml.XmlReader.Create(stringReader))));
+                return ((Players)(Serializer.Deserialize(System.Xml.XmlReader.Create(stringReader))));
             }
             finally
             {
@@ -1165,7 +1109,7 @@ namespace MCLAImport
         }
 
         /// <summary>
-        /// Serializes current scheduleGamePlayer1 object into file
+        /// Serializes current Players object into file
         /// </summary>
         /// <param name="fileName">full path of outupt xml file</param>
         /// <param name="exception">output Exception value if failed</param>
@@ -1206,16 +1150,16 @@ namespace MCLAImport
         }
 
         /// <summary>
-        /// Deserializes xml markup from file into an scheduleGamePlayer1 object
+        /// Deserializes xml markup from file into an Players object
         /// </summary>
         /// <param name="fileName">string xml file to load and deserialize</param>
-        /// <param name="obj">Output scheduleGamePlayer1 object</param>
+        /// <param name="obj">Output Players object</param>
         /// <param name="exception">output Exception value if deserialize failed</param>
         /// <returns>true if this XmlSerializer can deserialize the object; otherwise, false</returns>
-        public static bool LoadFromFile(string fileName, out scheduleGamePlayer1 obj, out System.Exception exception)
+        public static bool LoadFromFile(string fileName, out Players obj, out System.Exception exception)
         {
             exception = null;
-            obj = default(scheduleGamePlayer1);
+            obj = default(Players);
             try
             {
                 obj = LoadFromFile(fileName);
@@ -1228,13 +1172,13 @@ namespace MCLAImport
             }
         }
 
-        public static bool LoadFromFile(string fileName, out scheduleGamePlayer1 obj)
+        public static bool LoadFromFile(string fileName, out Players obj)
         {
             System.Exception exception = null;
             return LoadFromFile(fileName, out obj, out exception);
         }
 
-        public static scheduleGamePlayer1 LoadFromFile(string fileName)
+        public static Players LoadFromFile(string fileName)
         {
             System.IO.FileStream file = null;
             System.IO.StreamReader sr = null;
