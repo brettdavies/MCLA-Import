@@ -17,8 +17,8 @@
           <xs:complexType>
             <xs:sequence>
               <xs:element name="game_season_id" type="xs:unsignedShort" />
-              <xs:element name="game_date" type="xs:date" />
-              <xs:element name="game_time" type="xs:date" />
+              <xs:element name="game_date" type="xs:string" />
+              <xs:element name="game_time" type="xs:string" />
               <xs:element name="game_type" type="xs:string" />
               <xs:element name="game_status" type="xs:string" />
               <xs:element name="venue" type="xs:string" />
