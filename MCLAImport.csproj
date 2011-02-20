@@ -57,9 +57,6 @@
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="KSULax.Dal">
-      <HintPath>..\DAL\bin\Release\KSULax.Dal.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
@@ -128,9 +125,9 @@
     <Content Include="xml\Schedule.xml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\KSULax\KSULax.csproj">
-      <Project>{963E2E8B-BEEF-44DC-B95D-0089A7733AD1}</Project>
-      <Name>KSULax</Name>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{F487F7BF-E8A1-470A-83E7-A222045DAB8A}</Project>
+      <Name>DAL</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
