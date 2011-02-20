@@ -6,7 +6,6 @@ using System.Xml.Schema;
 using System.IO;
 using System.Collections.Generic;
 using KSULax.Entities;
-using KSULax.Models;
 using KSULax.Dal;
 using KSULax.Logic.Import;
 
@@ -29,51 +28,61 @@ namespace MCLAImport
             XmlDocument responseXML = new XmlDocument();
             
             //responseXML.Load(httpResponse.GetResponseStream());
-            responseXML.Load(@"C:\Users\Brett\Documents\Visual Studio 2010\Projects\MCLAImport\xml\Roster.xml");
-            var players = roster.Deserialize(responseXML.InnerXml);
-            var pbeLst = GetPlayerBE(players.player);
+            //responseXML.Load(@"C:\Users\Brett\Documents\Visual Studio 2010\Projects\MCLAImport\xml\Roster.xml");
+            //var players = roster.Deserialize(responseXML.InnerXml);
+            //var pbeLst = GetPlayerBE(players.player);
 
-            mcla.UpdatePlayers(pbeLst);
-
-
+            //if (null != pbeLst)
+            //{
+            //    mcla.UpdatePlayers(pbeLst);
+            //}
+            
+            //responseXML.Load(httpResponse.GetResponseStream());
             responseXML.Load(@"C:\Users\Brett\Documents\Visual Studio 2010\Projects\MCLAImport\xml\Schedule.xml");
             var sch = schedule.Deserialize(responseXML.InnerXml);
             var geLst = GetGameBE(sch.game);
-            var pgbeLst = GetPlayerGameBE(sch.game);
+            var pgbeLst = GetGameStatBE(sch.game);
 
-            mcla.UpdateGames(geLst);
-            mcla.UpdatePlayerGame(pgbeLst);
+            if (null != geLst)
+            {
+                mcla.UpdateGames(geLst);
 
+                if (null != pgbeLst)
+                {
+                    mcla.UpdateGameStatByGame(pgbeLst);
+                }
+            }
         }
 
-        private static List<PlayerGameBE> GetPlayerGameBE(List<scheduleGame> games)
+        private static List<GameStatBE> GetGameStatBE(List<scheduleGame> games)
         {
-            var pgbeLst = new List<PlayerGameBE>();
+            var pgbeLst = new List<GameStatBE>();
 
             foreach (scheduleGame game in games)
             {
                 bool _isHome = game.home_team_slug.Equals("kennesaw_state");
 
-                pgbeLst.AddRange(GetPlayerGameBE(_isHome ? game.home_players : game.away_players, game.id));
+                pgbeLst.AddRange(GetGameStatBE(_isHome ? game.home_players : game.away_players, game.id, game.game_season_id));
             }
 
             return pgbeLst;
         }
 
-        private static List<PlayerGameBE> GetPlayerGameBE(List<PlayerGameStat> players, ushort gameID)
+        private static List<GameStatBE> GetGameStatBE(List<PlayerGameStat> players, ushort gameID, ushort seasonID)
         {
-            var pgbeLst = new List<PlayerGameBE>();
+            var pgbeLst = new List<GameStatBE>();
 
             foreach (PlayerGameStat player in players)
             {
-                pgbeLst.Add(new PlayerGameBE
+                pgbeLst.Add(new GameStatBE
                 {
                     Assists = player.assists,
                     GameID = gameID,
                     Goals = player.goals,
                     GoalsAgainst = player.ga,
                     PlayerID = player.id,
-                    Saves = player.saves
+                    Saves = player.saves,
+                    SeasonID = seasonID
                 });
             }
 
