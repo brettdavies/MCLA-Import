@@ -16,6 +16,14 @@ namespace MCLAImport
 
         public static void Main(string[] args)
         {
+
+            importMCLA();
+            
+        }
+
+        #region MCLA
+        private static void importMCLA()
+        {
             //string url = "http://api.mcla.us/request/?api_key=f62001122589294193682bb5ac6897c7&version=1.1&method=game&team=kennesaw_state";
             //string url = "http://api.mcla.us/request/?api_key=f62001122589294193682bb5ac6897c7&version=1.1&method=roster&team=kennesaw_state";
             //string url = "http://api.mcla.us/request/?api_key=f62001122589294193682bb5ac6897c7&version=1.1&method=game&start=02/12/2011&end=02/14/2011&team=kennesaw_state";
@@ -160,5 +168,8 @@ namespace MCLAImport
 
             return pbe;
         }
+
+        #endregion MCLA
+
     }
 }
