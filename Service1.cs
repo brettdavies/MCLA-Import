@@ -160,8 +160,7 @@ namespace MCLAImport
             pbe.JerseyNum = player.season.jersey;
             pbe.Position = player.season.position;
             pbe.Weight = player.season.weight;
-
-            //player.season.team;
+            pbe.Team = player.season.team;
 
             return pbe;
         }
