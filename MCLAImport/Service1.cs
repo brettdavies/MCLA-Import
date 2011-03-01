@@ -111,16 +111,13 @@ namespace MCLAImport
 
         private static GameBE GetGameBE(scheduleGame game)
         {
-            string datetime = game.game_date + ' ' + game.game_season_id + ' '+ game.game_time;
-
             var ge = new GameBE
             {
                 AwayTeamScore = game.away_team_score,
                 AwayTeamSlug = game.away_team_slug,
-                Date = DateTime.Parse(datetime),
+                Datetime = DateTime.Parse(game.game_date + ' ' + game.game_season_id + ' '+ game.game_time),
                 SeasonID = (short)game.game_season_id,
                 Status = game.game_status,
-                Time = DateTime.Parse(datetime),
                 Type = game.game_type,
                 HomeTeamScore = game.home_team_score,
                 HomeTeamSlug = game.home_team_slug,
