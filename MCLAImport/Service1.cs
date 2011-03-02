@@ -8,17 +8,96 @@ using System.Collections.Generic;
 using KSULax.Entities;
 using KSULax.Dal;
 using KSULax.Logic.Import;
+using HtmlAgilityPack;
 
 namespace MCLAImport
 {
     public partial class Service1
     {
-
         public static void Main(string[] args)
         {
+            //importMCLA();
 
-            importMCLA();
-            
+            //importMCLATop23();
+            //importCLTop25();
+        }
+
+        private static void importMCLATop23()
+        {
+            string url = "http://mclamag.com/top23/"+DateTime.Now.Year;
+            HttpWebRequest webRequest = (HttpWebRequest)WebRequest.Create(url);
+            HttpWebResponse httpResponse = (HttpWebResponse)webRequest.GetResponse();
+
+            HtmlDocument doc = new HtmlDocument();
+            doc.Load(httpResponse.GetResponseStream());
+
+            short pollSourceId = 1;
+
+            DateTime pollDate = DateTime.Parse(doc.DocumentNode.SelectSingleNode("//h3").InnerText);
+
+            string pollUrl = url +@"/" + doc.DocumentNode.SelectSingleNode("//li/a[contains(@class, 'active')]").Attributes["href"].Value;
+
+            short rank = 0;
+            short index = 1;
+            foreach (HtmlNode link in doc.DocumentNode.SelectNodes("//ol[@class='div2']/li/span/a/img[@src]"))
+            {
+                HtmlAttribute att = link.Attributes["src"];
+                if (att.Value.Contains("kennesaw_state"))
+                {
+                    rank = index;
+                    break;
+                }
+
+                index++;
+            }
+
+            if (rank > 0)
+            {
+                DataBL dbl = new DataBL();
+                dbl.UpdatePoll(new TeamRankingBE
+                    {
+                        Date = pollDate,
+                        pollSource = pollSourceId,
+                        Rank = rank,
+                        Url = pollUrl
+                    }
+                );
+            }
+        }
+
+        private static void importCLTop25()
+        {
+            string root = "http://www.collegelax.us";
+            string url = root + "/polls.php";
+            HttpWebRequest webRequest = (HttpWebRequest)WebRequest.Create(url);
+            HttpWebResponse httpResponse = (HttpWebResponse)webRequest.GetResponse();
+
+            HtmlDocument doc = new HtmlDocument();
+            doc.Load(httpResponse.GetResponseStream());
+
+            short pollSourceId = 2;
+
+            string h4 = doc.DocumentNode.SelectSingleNode("//h4").InnerText;
+            DateTime pollDate = DateTime.Parse(h4.Substring(h4.LastIndexOf(' '))+ '/' + DateTime.Now.Year );
+
+            string pollUrl = root + doc.DocumentNode.SelectSingleNode("//ul[@class='News']/li/a[@href]").Attributes["href"].Value;
+
+            short rank = 0;
+
+            HtmlNode tr = doc.DocumentNode.SelectSingleNode("//tr/td/a[contains(@href,'kennesaw_state')]").ParentNode.ParentNode;
+
+            if (short.TryParse(tr.FirstChild.InnerText, out rank))
+            {
+                DataBL dbl = new DataBL();
+                dbl.UpdatePoll(new TeamRankingBE
+                {
+                    Date = pollDate,
+                    pollSource = pollSourceId,
+                    Rank = rank,
+                    Url = pollUrl
+                }
+                );
+            }
         }
 
         #region MCLA
@@ -166,6 +245,5 @@ namespace MCLAImport
         }
 
         #endregion MCLA
-
     }
 }
