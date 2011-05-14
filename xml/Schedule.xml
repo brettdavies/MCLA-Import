@@ -1,7 +1,7 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<schedule>
-  <generated>February 19, 2011 - 07:54:52 PM</generated>
-  <game id="9315">
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+ <schedule>
+  <generated>May 12, 2011  05:58:05 PM</generated>
+   <game id="9315">
     <game_season_id>2011</game_season_id>
     <game_date>Sat Jan 29</game_date>
     <game_time>12:00 PM</game_time>
@@ -15,370 +15,364 @@
     <url>http://mcla.us/scores/games/9315/</url>
     <away_team_score>5</away_team_score>
     <home_team_score>19</home_team_score>
-    <away_players>
-      <player id="24754">
+     <away_players>
+       <player id="24754">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="24764">
+       <player id="24764">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="24735">
+       <player id="24735">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="24771">
+       <player id="24771">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="24769">
+       <player id="24769">
         <assists>0</assists>
         <goals>1</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="24749">
+       <player id="24749">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="24756">
+       <player id="24756">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="24765">
+       <player id="24765">
         <assists>1</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="24751">
+       <player id="24751">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="24768">
+       <player id="24768">
         <assists>0</assists>
         <goals>0</goals>
         <saves>3</saves>
         <ga>5</ga>
       </player>
-      <player id="18092">
+       <player id="18092">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="21129">
+       <player id="21129">
         <assists>1</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="24758">
+       <player id="24758">
         <assists>0</assists>
         <goals>1</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="24766">
+       <player id="24766">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="21133">
+       <player id="21133">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="24761">
+       <player id="24761">
         <assists>0</assists>
         <goals>3</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="24762">
+       <player id="24762">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="24770">
+       <player id="24770">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="24747">
+       <player id="24733">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="24733">
+       <player id="16466">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="16466">
+       <player id="24737">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="24737">
+       <player id="24772">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="24772">
+       <player id="21147">
         <assists>0</assists>
         <goals>0</goals>
-        <saves>0</saves>
-        <ga>0</ga>
-      </player>
-      <player id="21147">
-        <assists>0</assists>
-        <goals>0</goals>
-        <saves>9</saves>
+        <saves>11</saves>
         <ga>14</ga>
       </player>
-      <player id="24750">
+       <player id="24750">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="24757">
+       <player id="24757">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="24755">
+       <player id="24755">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="24732">
+       <player id="24732">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="24759">
+       <player id="24759">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="21138">
+       <player id="21138">
         <assists>1</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="24731">
+       <player id="24731">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="24767">
+       <player id="24767">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="24763">
+       <player id="24763">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="24734">
+       <player id="24734">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
     </away_players>
-    <home_players>
-      <player id="24665">
+     <home_players>
+       <player id="24665">
         <assists>1</assists>
         <goals>1</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="14187">
+       <player id="14187">
         <assists>2</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="24668">
+       <player id="24668">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="24718">
+       <player id="24718">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="11197">
+       <player id="11197">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="18467">
+       <player id="18467">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="24670">
+       <player id="24670">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="24669">
+       <player id="24669">
         <assists>1</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="21416">
+       <player id="21416">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="21422">
+       <player id="21422">
         <assists>0</assists>
         <goals>0</goals>
         <saves>3</saves>
         <ga>2</ga>
       </player>
-      <player id="21418">
+       <player id="21418">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="25327">
+       <player id="25327">
         <assists>2</assists>
         <goals>5</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="14551">
+       <player id="14551">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="21431">
+       <player id="21431">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="24667">
+       <player id="24667">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="14548">
+       <player id="14548">
         <assists>1</assists>
         <goals>1</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="24673">
+       <player id="24673">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="21414">
+       <player id="21414">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="21415">
+       <player id="21415">
         <assists>0</assists>
         <goals>2</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="18852">
+       <player id="18852">
         <assists>0</assists>
         <goals>0</goals>
         <saves>6</saves>
         <ga>3</ga>
       </player>
-      <player id="18857">
+       <player id="18857">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="14556">
+       <player id="14556">
         <assists>2</assists>
         <goals>2</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="14552">
+       <player id="14552">
         <assists>1</assists>
         <goals>3</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="21204">
+       <player id="21204">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="21419">
+       <player id="21419">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="14559">
+       <player id="14559">
         <assists>1</assists>
         <goals>5</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="21417">
+       <player id="21417">
         <assists>1</assists>
         <goals>0</goals>
         <saves>0</saves>
@@ -386,7 +380,7 @@
       </player>
     </home_players>
   </game>
-  <game id="9371">
+   <game id="9371">
     <game_season_id>2011</game_season_id>
     <game_date>Sat Feb 5</game_date>
     <game_time>12:00 PM</game_time>
@@ -400,298 +394,298 @@
     <url>http://mcla.us/scores/games/9371/</url>
     <away_team_score>8</away_team_score>
     <home_team_score>10</home_team_score>
-    <away_players>
-      <player id="15850">
+     <away_players>
+       <player id="15850">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="15852">
+       <player id="15852">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="24057">
+       <player id="24057">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="15855">
+       <player id="15855">
         <assists>2</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="24049">
+       <player id="24049">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="24053">
+       <player id="24053">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="24052">
+       <player id="24052">
         <assists>1</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="16234">
+       <player id="16234">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="20295">
+       <player id="20295">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="20433">
+       <player id="20433">
         <assists>1</assists>
         <goals>1</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="20305">
+       <player id="20305">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="24058">
+       <player id="24058">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="24056">
+       <player id="24056">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="15859">
+       <player id="15859">
         <assists>0</assists>
         <goals>2</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="20432">
+       <player id="20432">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="17380">
+       <player id="17380">
         <assists>0</assists>
         <goals>0</goals>
         <saves>17</saves>
         <ga>10</ga>
       </player>
-      <player id="15860">
+       <player id="15860">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="20431">
+       <player id="20431">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="20306">
+       <player id="20306">
         <assists>0</assists>
         <goals>1</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="24326">
+       <player id="24326">
         <assists>0</assists>
         <goals>1</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="21273">
+       <player id="21273">
         <assists>0</assists>
         <goals>3</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="23180">
+       <player id="23180">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="21274">
+       <player id="21274">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
     </away_players>
-    <home_players>
-      <player id="24665">
+     <home_players>
+       <player id="24665">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="14187">
+       <player id="14187">
         <assists>2</assists>
         <goals>1</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="24668">
+       <player id="24668">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="24718">
+       <player id="24718">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="11197">
+       <player id="11197">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="19219">
+       <player id="19219">
         <assists>0</assists>
         <goals>0</goals>
         <saves>6</saves>
         <ga>3</ga>
       </player>
-      <player id="18467">
+       <player id="18467">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="24670">
+       <player id="24670">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="24669">
+       <player id="24669">
         <assists>0</assists>
         <goals>1</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="21416">
+       <player id="21416">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="24660">
+       <player id="24660">
         <assists>0</assists>
         <goals>0</goals>
         <saves>9</saves>
         <ga>5</ga>
       </player>
-      <player id="21418">
+       <player id="21418">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="24839">
+       <player id="24839">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="25327">
+       <player id="25327">
         <assists>1</assists>
         <goals>2</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="21431">
+       <player id="21431">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="24667">
+       <player id="24667">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="24661">
+       <player id="24661">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="14548">
+       <player id="14548">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="21414">
+       <player id="21414">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="21415">
+       <player id="21415">
         <assists>0</assists>
         <goals>1</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="18857">
+       <player id="18857">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="14556">
+       <player id="14556">
         <assists>2</assists>
         <goals>5</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="14552">
+       <player id="14552">
         <assists>1</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="21204">
+       <player id="21204">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="21419">
+       <player id="21419">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="21417">
+       <player id="21417">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
@@ -699,7 +693,7 @@
       </player>
     </home_players>
   </game>
-  <game id="9376">
+   <game id="9376">
     <game_season_id>2011</game_season_id>
     <game_date>Sat Feb 12</game_date>
     <game_time>1:00 PM</game_time>
@@ -713,181 +707,181 @@
     <url>http://mcla.us/scores/games/9376/</url>
     <away_team_score>7</away_team_score>
     <home_team_score>3</home_team_score>
-    <away_players>
-      <player id="24665">
+     <away_players>
+       <player id="24665">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="14187">
+       <player id="14187">
         <assists>1</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="24668">
+       <player id="24668">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="24718">
+       <player id="24718">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="11197">
+       <player id="11197">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="24670">
+       <player id="24670">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="24669">
+       <player id="24669">
         <assists>1</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="21416">
+       <player id="21416">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="24660">
+       <player id="24660">
         <assists>0</assists>
         <goals>0</goals>
         <saves>2</saves>
         <ga>1</ga>
       </player>
-      <player id="21422">
+       <player id="21422">
         <assists>0</assists>
         <goals>0</goals>
         <saves>3</saves>
         <ga>0</ga>
       </player>
-      <player id="21418">
+       <player id="21418">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="24839">
+       <player id="24839">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="25327">
+       <player id="25327">
         <assists>1</assists>
         <goals>2</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="21431">
+       <player id="21431">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="24667">
+       <player id="24667">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="24661">
+       <player id="24661">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="14548">
+       <player id="14548">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="24673">
+       <player id="24673">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="21414">
+       <player id="21414">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="21415">
+       <player id="21415">
         <assists>0</assists>
         <goals>1</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="18857">
+       <player id="18857">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="14556">
+       <player id="14556">
         <assists>1</assists>
         <goals>3</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="14552">
+       <player id="14552">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="21204">
+       <player id="21204">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="21429">
+       <player id="21429">
         <assists>0</assists>
         <goals>0</goals>
         <saves>5</saves>
         <ga>2</ga>
       </player>
-      <player id="21419">
+       <player id="21419">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="14559">
+       <player id="14559">
         <assists>0</assists>
         <goals>1</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="21417">
+       <player id="21417">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
     </away_players>
-    <home_players>
+     <home_players>
       <error>no player statistics</error>
     </home_players>
   </game>
-  <game id="9070">
+   <game id="9070">
     <game_season_id>2011</game_season_id>
     <game_date>Fri Feb 18</game_date>
     <game_time>7:00 PM</game_time>
@@ -901,167 +895,286 @@
     <url>http://mcla.us/scores/games/9070/</url>
     <away_team_score>5</away_team_score>
     <home_team_score>23</home_team_score>
-    <away_players>
-      <error>no player statistics</error>
-    </away_players>
-    <home_players>
-      <player id="14187">
+     <away_players>
+       <player id="24814">
+        <assists>0</assists>
+        <goals>4</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24818">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="24668">
+       <player id="21232">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="24718">
+       <player id="24815">
         <assists>0</assists>
         <goals>1</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="18467">
+       <player id="17334">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="24670">
+       <player id="26053">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="17345">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24811">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24809">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21235">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="26057">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24816">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24920">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="26055">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="17342">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24817">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24799">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24820">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24803">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24813">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+    </away_players>
+     <home_players>
+       <player id="14187">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24668">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24718">
+        <assists>0</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="18467">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24670">
         <assists>1</assists>
         <goals>1</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="24669">
+       <player id="24669">
         <assists>0</assists>
         <goals>1</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="21416">
+       <player id="21416">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="21422">
+       <player id="21422">
         <assists>0</assists>
         <goals>0</goals>
         <saves>2</saves>
         <ga>1</ga>
       </player>
-      <player id="21418">
+       <player id="21418">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="24839">
+       <player id="24839">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="25327">
+       <player id="25327">
         <assists>0</assists>
         <goals>8</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="21431">
+       <player id="21431">
         <assists>1</assists>
         <goals>1</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="24667">
+       <player id="24667">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="24661">
+       <player id="24661">
         <assists>0</assists>
         <goals>1</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="14548">
+       <player id="14548">
         <assists>0</assists>
         <goals>2</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="24673">
+       <player id="24673">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="21414">
+       <player id="21414">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="21415">
+       <player id="21415">
         <assists>1</assists>
         <goals>1</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="18852">
+       <player id="18852">
         <assists>0</assists>
         <goals>0</goals>
         <saves>4</saves>
         <ga>2</ga>
       </player>
-      <player id="18857">
+       <player id="18857">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="14556">
+       <player id="14556">
         <assists>5</assists>
         <goals>3</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="14552">
+       <player id="14552">
         <assists>3</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="21204">
+       <player id="21204">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="21429">
+       <player id="21429">
         <assists>0</assists>
         <goals>0</goals>
         <saves>2</saves>
         <ga>2</ga>
       </player>
-      <player id="21419">
+       <player id="21419">
         <assists>0</assists>
         <goals>0</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="14559">
+       <player id="14559">
         <assists>4</assists>
         <goals>3</goals>
         <saves>0</saves>
         <ga>0</ga>
       </player>
-      <player id="21417">
+       <player id="21417">
         <assists>0</assists>
         <goals>1</goals>
         <saves>0</saves>
@@ -1069,7 +1182,7 @@
       </player>
     </home_players>
   </game>
-  <game id="9262">
+   <game id="9262">
     <game_season_id>2011</game_season_id>
     <game_date>Sat Feb 26</game_date>
     <game_time>2:00 PM</game_time>
@@ -1080,8 +1193,267 @@
     <away_team_slug>kennesaw_state</away_team_slug>
     <home_team>Tennessee Wesleyan College</home_team>
     <home_team_slug>tennessee_wesleyan</home_team_slug>
+    <url>http://mcla.us/scores/games/9262/</url>
+    <away_team_score>11</away_team_score>
+    <home_team_score>9</home_team_score>
+     <away_players>
+       <player id="24665">
+        <assists>0</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="14187">
+        <assists>2</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24668">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24718">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="11197">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="19219">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>8</saves>
+        <ga>2</ga>
+      </player>
+       <player id="24669">
+        <assists>3</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21416">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21418">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="25327">
+        <assists>1</assists>
+        <goals>2</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="14551">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21431">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24661">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="14548">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21414">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21415">
+        <assists>0</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="18852">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>7</saves>
+        <ga>6</ga>
+      </player>
+       <player id="18857">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="14556">
+        <assists>2</assists>
+        <goals>3</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="14552">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21204">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="14559">
+        <assists>0</assists>
+        <goals>3</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21417">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+    </away_players>
+     <home_players>
+       <player id="14179">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21013">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="18261">
+        <assists>1</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24311">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24319">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="18245">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21010">
+        <assists>0</assists>
+        <goals>5</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="14183">
+        <assists>0</assists>
+        <goals>2</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24314">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21016">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24317">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="14181">
+        <assists>2</assists>
+        <goals>2</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="14177">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="18255">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24304">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="18248">
+        <assists>1</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="18250">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>11</saves>
+        <ga>11</ga>
+      </player>
+       <player id="14182">
+        <assists>1</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="14176">
+        <assists>1</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+    </home_players>
   </game>
-  <game id="8920">
+   <game id="8920">
     <game_season_id>2011</game_season_id>
     <game_date>Sun Feb 27</game_date>
     <game_time>12:00 PM</game_time>
@@ -1092,8 +1464,363 @@
     <away_team_slug>citadel</away_team_slug>
     <home_team>Kennesaw State University</home_team>
     <home_team_slug>kennesaw_state</home_team_slug>
+    <url>http://mcla.us/scores/games/8920/</url>
+    <away_team_score>5</away_team_score>
+    <home_team_score>21</home_team_score>
+     <away_players>
+       <player id="20947">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="23712">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="23710">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="20781">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="20944">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="20797">
+        <assists>2</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="23721">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="23726">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="20794">
+        <assists>0</assists>
+        <goals>2</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="23735">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="23711">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="23739">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="23724">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="23737">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="23736">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="23738">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="23722">
+        <assists>0</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="23731">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="20786">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="23744">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="23728">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="20803">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="20792">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="20798">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="23740">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="20778">
+        <assists>0</assists>
+        <goals>2</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="23730">
+        <assists>1</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="20789">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>18</saves>
+        <ga>21</ga>
+      </player>
+       <player id="20806">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+    </away_players>
+     <home_players>
+       <player id="24665">
+        <assists>0</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="14187">
+        <assists>2</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24668">
+        <assists>0</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24718">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="11197">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="18467">
+        <assists>1</assists>
+        <goals>2</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24669">
+        <assists>1</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21416">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24660">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>1</saves>
+        <ga>1</ga>
+      </player>
+       <player id="21422">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>1</saves>
+        <ga>2</ga>
+      </player>
+       <player id="21418">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24839">
+        <assists>0</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="25327">
+        <assists>3</assists>
+        <goals>3</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="14551">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21431">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24667">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24661">
+        <assists>0</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="14548">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24673">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21414">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21415">
+        <assists>1</assists>
+        <goals>4</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="18857">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="14556">
+        <assists>5</assists>
+        <goals>2</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="14552">
+        <assists>0</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21204">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21429">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>2</saves>
+        <ga>2</ga>
+      </player>
+       <player id="21419">
+        <assists>0</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="14559">
+        <assists>3</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21417">
+        <assists>2</assists>
+        <goals>2</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+    </home_players>
   </game>
-  <game id="9362">
+   <game id="9362">
     <game_season_id>2011</game_season_id>
     <game_date>Sat Mar 5</game_date>
     <game_time>7:00 PM</game_time>
@@ -1104,8 +1831,291 @@
     <away_team_slug>kennesaw_state</away_team_slug>
     <home_team>Palm Beach Atlantic University</home_team>
     <home_team_slug>palm_beach_atlantic</home_team_slug>
+    <url>http://mcla.us/scores/games/9362/</url>
+    <away_team_score>9</away_team_score>
+    <home_team_score>6</home_team_score>
+     <away_players>
+       <player id="24665">
+        <assists>0</assists>
+        <goals>2</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="14187">
+        <assists>0</assists>
+        <goals>3</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24668">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24718">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="11197">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="18467">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24670">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24669">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21416">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21418">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24839">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="25327">
+        <assists>1</assists>
+        <goals>3</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="14551">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21431">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24667">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24661">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="14548">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24673">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21414">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21415">
+        <assists>0</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="18852">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>14</saves>
+        <ga>6</ga>
+      </player>
+       <player id="18857">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="14556">
+        <assists>3</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21204">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="14559">
+        <assists>2</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21417">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+    </away_players>
+     <home_players>
+       <player id="24466">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24456">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24450">
+        <assists>1</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24463">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>15</saves>
+        <ga>9</ga>
+      </player>
+       <player id="24462">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="17507">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24464">
+        <assists>0</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="17666">
+        <assists>2</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24465">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="17499">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24467">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24469">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24459">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="16189">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24554">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24468">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21177">
+        <assists>0</assists>
+        <goals>2</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="17669">
+        <assists>1</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="17504">
+        <assists>0</assists>
+        <goals>2</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24461">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+    </home_players>
   </game>
-  <game id="9363">
+   <game id="9363">
     <game_season_id>2011</game_season_id>
     <game_date>Sun Mar 6</game_date>
     <game_time>1:00 PM</game_time>
@@ -1116,8 +2126,327 @@
     <away_team_slug>kennesaw_state</away_team_slug>
     <home_team>U.S. Coast Guard Academy</home_team>
     <home_team_slug>coast_gaurd</home_team_slug>
+    <url>http://mcla.us/scores/games/9363/</url>
+    <away_team_score>7</away_team_score>
+    <home_team_score>11</home_team_score>
+     <away_players>
+       <player id="24665">
+        <assists>0</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="14187">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24668">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24718">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="11197">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="19219">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>6</saves>
+        <ga>4</ga>
+      </player>
+       <player id="18467">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24670">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24669">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21416">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21422">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>7</saves>
+        <ga>7</ga>
+      </player>
+       <player id="21418">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24839">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="25327">
+        <assists>3</assists>
+        <goals>3</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="14551">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21431">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24667">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24661">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="14548">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24673">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21414">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21415">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="18857">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="14556">
+        <assists>2</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="14552">
+        <assists>0</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21204">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="14559">
+        <assists>2</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21417">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+    </away_players>
+     <home_players>
+       <player id="15912">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="26370">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="22343">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="20024">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="26303">
+        <assists>2</assists>
+        <goals>2</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="15914">
+        <assists>1</assists>
+        <goals>2</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="22338">
+        <assists>0</assists>
+        <goals>2</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="26372">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="22341">
+        <assists>2</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="15915">
+        <assists>0</assists>
+        <goals>3</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="22340">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="15918">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="15558">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="22563">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="20021">
+        <assists>2</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="20033">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="20037">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>7</ga>
+      </player>
+       <player id="20038">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="22336">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="26369">
+        <assists>0</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="20040">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="22339">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="22349">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="20041">
+        <assists>1</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+    </home_players>
   </game>
-  <game id="9150">
+   <game id="9150">
     <game_season_id>2011</game_season_id>
     <game_date>Mon Mar 7</game_date>
     <game_time>6:00 PM</game_time>
@@ -1128,8 +2457,279 @@
     <away_team_slug>kennesaw_state</away_team_slug>
     <home_team>University of North Florida</home_team>
     <home_team_slug>north_florida</home_team_slug>
+    <url>http://mcla.us/scores/games/9150/</url>
+    <away_team_score>10</away_team_score>
+    <home_team_score>7</home_team_score>
+     <away_players>
+       <player id="24665">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="14187">
+        <assists>1</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24668">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24718">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="11197">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="18467">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24670">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24669">
+        <assists>0</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21416">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24660">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>11</saves>
+        <ga>7</ga>
+      </player>
+       <player id="21418">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24839">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="25327">
+        <assists>3</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="14551">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21431">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24667">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24661">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="14548">
+        <assists>1</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24673">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21414">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21415">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="18857">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="14556">
+        <assists>1</assists>
+        <goals>4</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="14552">
+        <assists>0</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21204">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21419">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="14559">
+        <assists>1</assists>
+        <goals>3</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21417">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+    </away_players>
+     <home_players>
+       <player id="17410">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="26464">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="17393">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="26465">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="17403">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24253">
+        <assists>1</assists>
+        <goals>3</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="17391">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>18</saves>
+        <ga>10</ga>
+      </player>
+       <player id="24247">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="17392">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="12228">
+        <assists>0</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21160">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21163">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="17399">
+        <assists>0</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24250">
+        <assists>0</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21151">
+        <assists>1</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24252">
+        <assists>2</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+    </home_players>
   </game>
-  <game id="9372">
+   <game id="9372">
     <game_season_id>2011</game_season_id>
     <game_date>Sun Mar 13</game_date>
     <game_time>12:00 PM</game_time>
@@ -1140,8 +2740,273 @@
     <away_team_slug>stonehill</away_team_slug>
     <home_team>Kennesaw State University</home_team>
     <home_team_slug>kennesaw_state</home_team_slug>
+    <url>http://mcla.us/scores/games/9372/</url>
+    <away_team_score>2</away_team_score>
+    <home_team_score>13</home_team_score>
+     <away_players>
+       <player id="26140">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21570">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="17466">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="16536">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="26127">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="26147">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="26141">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21568">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="17465">
+        <assists>0</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="17464">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="26100">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21566">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="17467">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="26101">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21572">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>15</saves>
+        <ga>13</ga>
+      </player>
+       <player id="21565">
+        <assists>1</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21562">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="16534">
+        <assists>0</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="26146">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21573">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+    </away_players>
+     <home_players>
+       <player id="24665">
+        <assists>0</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="14187">
+        <assists>0</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24668">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24718">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="11197">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="18467">
+        <assists>0</assists>
+        <goals>2</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24670">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24669">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21416">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24660">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>4</saves>
+        <ga>1</ga>
+      </player>
+       <player id="21418">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24839">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="25327">
+        <assists>4</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="14551">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21431">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24661">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24673">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21414">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21415">
+        <assists>0</assists>
+        <goals>2</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="18852">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>5</saves>
+        <ga>1</ga>
+      </player>
+       <player id="14556">
+        <assists>2</assists>
+        <goals>3</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="14559">
+        <assists>0</assists>
+        <goals>4</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21417">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+    </home_players>
   </game>
-  <game id="9166">
+   <game id="9166">
     <game_season_id>2011</game_season_id>
     <game_date>Sun Mar 20</game_date>
     <game_time>12:00 PM</game_time>
@@ -1152,8 +3017,231 @@
     <away_team_slug>reinhardt</away_team_slug>
     <home_team>Kennesaw State University</home_team>
     <home_team_slug>kennesaw_state</home_team_slug>
+    <url>http://mcla.us/scores/games/9166/</url>
+    <away_team_score>1</away_team_score>
+    <home_team_score>20</home_team_score>
+     <away_players>
+       <player id="22749">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="22758">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="22763">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="22764">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24315">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="22754">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="22761">
+        <assists>0</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24312">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>10</saves>
+        <ga>20</ga>
+      </player>
+       <player id="24309">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24316">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+    </away_players>
+     <home_players>
+       <player id="24665">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="14187">
+        <assists>2</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24668">
+        <assists>1</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="11197">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="19219">
+        <assists>0</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="18467">
+        <assists>0</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24670">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24669">
+        <assists>1</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21416">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24660">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>5</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21422">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>1</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21418">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24839">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="25327">
+        <assists>2</assists>
+        <goals>4</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="14551">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21431">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24661">
+        <assists>0</assists>
+        <goals>3</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24673">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21415">
+        <assists>0</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="18857">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="14556">
+        <assists>5</assists>
+        <goals>3</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="14552">
+        <assists>0</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21204">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21429">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>2</saves>
+        <ga>1</ga>
+      </player>
+       <player id="14559">
+        <assists>1</assists>
+        <goals>3</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21417">
+        <assists>0</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+    </home_players>
   </game>
-  <game id="9373">
+   <game id="9373">
     <game_season_id>2011</game_season_id>
     <game_date>Sun Mar 27</game_date>
     <game_time>12:00 PM</game_time>
@@ -1165,7 +3253,7 @@
     <home_team>Kennesaw State University</home_team>
     <home_team_slug>kennesaw_state</home_team_slug>
   </game>
-  <game id="9140">
+   <game id="9140">
     <game_season_id>2011</game_season_id>
     <game_date>Fri Apr 1</game_date>
     <game_time>7:30 PM</game_time>
@@ -1176,8 +3264,255 @@
     <away_team_slug>kennesaw_state</away_team_slug>
     <home_team>Emory University</home_team>
     <home_team_slug>emory</home_team_slug>
+    <url>http://mcla.us/scores/games/9140/</url>
+    <away_team_score>11</away_team_score>
+    <home_team_score>10</home_team_score>
+     <away_players>
+       <player id="14187">
+        <assists>0</assists>
+        <goals>2</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24668">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="11197">
+        <assists>0</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="19219">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="18467">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24670">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21416">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21418">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24839">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="25327">
+        <assists>0</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="14551">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24661">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="14548">
+        <assists>0</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21414">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21415">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="18852">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>12</saves>
+        <ga>10</ga>
+      </player>
+       <player id="18857">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="14556">
+        <assists>2</assists>
+        <goals>2</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="14552">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21204">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="14559">
+        <assists>0</assists>
+        <goals>4</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21417">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+    </away_players>
+     <home_players>
+       <player id="24342">
+        <assists>0</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="20688">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="18447">
+        <assists>0</assists>
+        <goals>5</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="20695">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="20689">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="18452">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="15436">
+        <assists>1</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="18448">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="20693">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="18450">
+        <assists>1</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="15432">
+        <assists>1</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="15439">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24773">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21559">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="18451">
+        <assists>0</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="18444">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>17</saves>
+        <ga>11</ga>
+      </player>
+       <player id="15433">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="20692">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+    </home_players>
   </game>
-  <game id="9313">
+   <game id="9313">
     <game_season_id>2011</game_season_id>
     <game_date>Sat Apr 9</game_date>
     <game_time>4:00 PM</game_time>
@@ -1188,20 +3523,556 @@
     <away_team_slug>kennesaw_state</away_team_slug>
     <home_team>Elon University</home_team>
     <home_team_slug>elon</home_team_slug>
+    <url>http://mcla.us/scores/games/9313/</url>
+    <away_team_score>8</away_team_score>
+    <home_team_score>12</home_team_score>
+     <away_players>
+       <player id="14187">
+        <assists>1</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24668">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="11197">
+        <assists>0</assists>
+        <goals>2</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="18467">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24670">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24669">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21416">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21422">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>15</saves>
+        <ga>12</ga>
+      </player>
+       <player id="21418">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24839">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="25327">
+        <assists>1</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="14551">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24661">
+        <assists>1</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="14548">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24673">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21414">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21415">
+        <assists>0</assists>
+        <goals>2</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="18857">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="14556">
+        <assists>0</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="14552">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21204">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="14559">
+        <assists>1</assists>
+        <goals>2</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21417">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+    </away_players>
+     <home_players>
+       <player id="20329">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="18384">
+        <assists>1</assists>
+        <goals>2</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="20336">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="25663">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="20381">
+        <assists>0</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="18386">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="20332">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="25669">
+        <assists>0</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="15806">
+        <assists>1</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="20378">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="25670">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="18387">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="20376">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="20377">
+        <assists>0</assists>
+        <goals>2</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="18382">
+        <assists>2</assists>
+        <goals>2</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="15844">
+        <assists>0</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="20372">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>13</saves>
+        <ga>8</ga>
+      </player>
+       <player id="25674">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="15843">
+        <assists>3</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="20384">
+        <assists>1</assists>
+        <goals>3</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="20379">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="18391">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="25679">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+    </home_players>
   </game>
-  <game id="9323">
+   <game id="9323">
     <game_season_id>2011</game_season_id>
     <game_date>Sun Apr 10</game_date>
     <game_time>2:00 PM</game_time>
     <game_type>none</game_type>
     <game_status>0</game_status>
-    <venue>UNC-Charlotte</venue>
+    <venue>UNCCharlotte</venue>
     <away_team>Kennesaw State University</away_team>
     <away_team_slug>kennesaw_state</away_team_slug>
-    <home_team>University of North Carolina at Charlotte</home_team>
+    <home_team>Univ. of North Carolina at Charlotte</home_team>
     <home_team_slug>north_carolina_charlotte</home_team_slug>
+    <url>http://mcla.us/scores/games/9323/</url>
+    <away_team_score>18</away_team_score>
+    <home_team_score>7</home_team_score>
+     <away_players>
+       <player id="14187">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24668">
+        <assists>0</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="11197">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="19219">
+        <assists>0</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24670">
+        <assists>0</assists>
+        <goals>2</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24669">
+        <assists>1</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21416">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24660">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>10</saves>
+        <ga>2</ga>
+      </player>
+       <player id="21418">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24839">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="25327">
+        <assists>2</assists>
+        <goals>2</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="14551">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24661">
+        <assists>0</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="14548">
+        <assists>0</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24673">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21414">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21415">
+        <assists>0</assists>
+        <goals>4</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="18857">
+        <assists>3</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="14556">
+        <assists>0</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="14552">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21429">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>3</saves>
+        <ga>5</ga>
+      </player>
+       <player id="14559">
+        <assists>2</assists>
+        <goals>2</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21417">
+        <assists>0</assists>
+        <goals>2</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+    </away_players>
+     <home_players>
+       <player id="21662">
+        <assists>0</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="25774">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21633">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="18780">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="26700">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24289">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="22071">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>15</saves>
+        <ga>9</ga>
+      </player>
+       <player id="25772">
+        <assists>2</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="26548">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24298">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>11</saves>
+        <ga>9</ga>
+      </player>
+       <player id="20474">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="13222">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24297">
+        <assists>1</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="25776">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="18794">
+        <assists>0</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="13227">
+        <assists>2</assists>
+        <goals>3</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24291">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="25773">
+        <assists>0</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+    </home_players>
   </game>
-  <game id="9370">
+   <game id="9370">
     <game_season_id>2011</game_season_id>
     <game_date>Sat Apr 16</game_date>
     <game_time>7:00 PM</game_time>
@@ -1212,5 +4083,878 @@
     <away_team_slug>scad</away_team_slug>
     <home_team>Kennesaw State University</home_team>
     <home_team_slug>kennesaw_state</home_team_slug>
+    <url>http://mcla.us/scores/games/9370/</url>
+    <away_team_score>13</away_team_score>
+    <home_team_score>6</home_team_score>
+     <away_players>
+       <player id="13508">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="25264">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="13509">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="18677">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="13512">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21502">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="25269">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="25271">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="18679">
+        <assists>2</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="18684">
+        <assists>1</assists>
+        <goals>4</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="18678">
+        <assists>1</assists>
+        <goals>2</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="13510">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="18676">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="18673">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="18672">
+        <assists>1</assists>
+        <goals>5</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21506">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>5</saves>
+        <ga>5</ga>
+      </player>
+       <player id="18683">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="18682">
+        <assists>1</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="25270">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="6856">
+        <assists>0</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="18687">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>5</saves>
+        <ga>1</ga>
+      </player>
+    </away_players>
+     <home_players>
+       <player id="14187">
+        <assists>1</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24668">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="11197">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="19219">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>4</saves>
+        <ga>7</ga>
+      </player>
+       <player id="24669">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21416">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24660">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>5</saves>
+        <ga>5</ga>
+      </player>
+       <player id="21418">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="25327">
+        <assists>0</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="14551">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24661">
+        <assists>0</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="14548">
+        <assists>2</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21414">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21415">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="18852">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>1</saves>
+        <ga>1</ga>
+      </player>
+       <player id="18857">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="14556">
+        <assists>2</assists>
+        <goals>3</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="14552">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21204">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="14559">
+        <assists>0</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21417">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+    </home_players>
+  </game>
+   <game id="10442">
+    <game_season_id>2011</game_season_id>
+    <game_date>Fri Apr 29</game_date>
+    <game_time>8:00 PM</game_time>
+    <game_type>playoff</game_type>
+    <game_status>0</game_status>
+    <venue>Northview High School</venue>
+    <away_team>Palm Beach Atlantic University</away_team>
+    <away_team_slug>palm_beach_atlantic</away_team_slug>
+    <home_team>Kennesaw State University</home_team>
+    <home_team_slug>kennesaw_state</home_team_slug>
+    <url>http://mcla.us/scores/games/10442/</url>
+    <away_team_score>8</away_team_score>
+    <home_team_score>15</home_team_score>
+     <away_players>
+       <player id="24466">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24456">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24450">
+        <assists>0</assists>
+        <goals>3</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24463">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>11</saves>
+        <ga>12</ga>
+      </player>
+       <player id="24462">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="17507">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24464">
+        <assists>1</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="17666">
+        <assists>0</assists>
+        <goals>2</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24465">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="17499">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24467">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24469">
+        <assists>0</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24459">
+        <assists>0</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="16189">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24554">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24470">
+        <assists>2</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24468">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21177">
+        <assists>1</assists>
+        <goals>0</goals>
+        <saves>2</saves>
+        <ga>3</ga>
+      </player>
+       <player id="17669">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="17504">
+        <assists>0</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24461">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="26007">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+    </away_players>
+     <home_players>
+       <player id="14187">
+        <assists>5</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24668">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="11197">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="18467">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24670">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24669">
+        <assists>1</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21416">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21422">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>12</saves>
+        <ga>4</ga>
+      </player>
+       <player id="21418">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24839">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="25327">
+        <assists>1</assists>
+        <goals>5</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="14551">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24661">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="14548">
+        <assists>1</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24673">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21414">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21415">
+        <assists>0</assists>
+        <goals>3</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="18852">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>5</saves>
+        <ga>4</ga>
+      </player>
+       <player id="18857">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="14556">
+        <assists>2</assists>
+        <goals>4</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="14552">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21204">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="14559">
+        <assists>2</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21417">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+    </home_players>
+  </game>
+   <game id="10515">
+    <game_season_id>2011</game_season_id>
+    <game_date>Sat Apr 30</game_date>
+    <game_time>12:00 PM</game_time>
+    <game_type>playoff</game_type>
+    <game_status>0</game_status>
+    <venue>Northview High School</venue>
+    <away_team>Kennesaw State University</away_team>
+    <away_team_slug>kennesaw_state</away_team_slug>
+    <home_team>Savannah College of Art and Design</home_team>
+    <home_team_slug>scad</home_team_slug>
+    <url>http://mcla.us/scores/games/10515/</url>
+    <away_team_score>2</away_team_score>
+    <home_team_score>13</home_team_score>
+     <away_players>
+       <player id="14187">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24668">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="11197">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="19219">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>4</saves>
+        <ga>5</ga>
+      </player>
+       <player id="18467">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24670">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24669">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21416">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21418">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24839">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="25327">
+        <assists>1</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="14551">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24661">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="14548">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="24673">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21414">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21415">
+        <assists>1</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="18852">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>12</saves>
+        <ga>8</ga>
+      </player>
+       <player id="18857">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="14556">
+        <assists>0</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="14552">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21204">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="14559">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21417">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+    </away_players>
+     <home_players>
+       <player id="25263">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="13508">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="25264">
+        <assists>0</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="13509">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="18677">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="25266">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="13512">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21502">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="25267">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21503">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="25269">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="25271">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="25268">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="18679">
+        <assists>0</assists>
+        <goals>4</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="18684">
+        <assists>2</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="18678">
+        <assists>0</assists>
+        <goals>2</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="13510">
+        <assists>0</assists>
+        <goals>2</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="18676">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="18673">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="18672">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="21506">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>5</saves>
+        <ga>1</ga>
+      </player>
+       <player id="18683">
+        <assists>2</assists>
+        <goals>2</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="18682">
+        <assists>1</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="25270">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="6856">
+        <assists>0</assists>
+        <goals>1</goals>
+        <saves>0</saves>
+        <ga>0</ga>
+      </player>
+       <player id="18687">
+        <assists>0</assists>
+        <goals>0</goals>
+        <saves>3</saves>
+        <ga>1</ga>
+      </player>
+    </home_players>
   </game>
 </schedule>
