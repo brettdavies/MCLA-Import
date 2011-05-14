@@ -16,7 +16,7 @@ namespace MCLAImport
     {
         public static void Main(string[] args)
         {
-            //importMCLA();
+            importMCLA();
 
             //importMCLATop23();
             //importCLTop25();
@@ -113,17 +113,17 @@ namespace MCLAImport
             MCLA mcla = new MCLA();
 
             XmlDocument responseXML = new XmlDocument();
-            
-            //responseXML.Load(httpResponse.GetResponseStream());
-            //responseXML.Load(@"C:\Users\Brett\Documents\Visual Studio 2010\Projects\MCLAImport\xml\Roster.xml");
-            //var players = roster.Deserialize(responseXML.InnerXml);
-            //var pbeLst = GetPlayerBE(players.player);
 
-            //if (null != pbeLst)
-            //{
-            //    mcla.UpdatePlayers(pbeLst);
-            //}
-            
+            //responseXML.Load(httpResponse.GetResponseStream());
+            responseXML.Load(@"C:\Users\Brett\Documents\Visual Studio 2010\Projects\MCLAImport\xml\Roster.xml");
+            var players = roster.Deserialize(responseXML.InnerXml);
+            var pbeLst = GetPlayerBE(players.player);
+
+            if (null != pbeLst)
+            {
+                mcla.UpdatePlayers(pbeLst);
+            }
+
             //responseXML.Load(httpResponse.GetResponseStream());
             responseXML.Load(@"C:\Users\Brett\Documents\Visual Studio 2010\Projects\MCLAImport\xml\Schedule.xml");
             var sch = schedule.Deserialize(responseXML.InnerXml);
