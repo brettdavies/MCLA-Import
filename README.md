@@ -1,5 +1,4 @@
 # KSU Lacrosse: MCLA Data Importer
-
 This repository contains a C# application designed to import data from the [Men’s Collegiate Lacrosse Association (MCLA)](http://mcla.us) website. It facilitates the extraction and processing of lacrosse-related information, enabling seamless integration into various applications or databases.
 
 ## Features
